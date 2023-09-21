@@ -24,6 +24,15 @@ proxies:
   - {name: 火星互联 通知 @https://t.me/marsix2, server: free.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
   - {name: 火星互联 https://console.marsix.net/, server: free.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
   - {name: 火星互联 注册免费使用, server: free.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
+  - {name: "电报群: https://t.me/emovpn x1", server: v36.emovpn.life, port: 443, type: vmess, uuid: 570d1b0c-230f-4558-85bc-9be39e9228a7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v36.emovpn.xyz}, udp: true}
+  - {name: 「加入会员解锁流媒体」x5, server: v2.emovpn.xyz, port: 443, type: vmess, uuid: 570d1b0c-230f-4558-85bc-9be39e9228a7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v2.emovpn.xyz}, udp: true}
+  - {name: 「🇮🇳」EMO | 牛油果 x5, server: v19.emovpn.xyz, port: 2096, type: vmess, uuid: 570d1b0c-230f-4558-85bc-9be39e9228a7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v19.emovpn.xyz}, udp: true}
+  - {name: 「🇺🇸」EMO | 芝麻蕉 x1, server: v20.emovpn.xyz, port: 8443, type: vmess, uuid: 570d1b0c-230f-4558-85bc-9be39e9228a7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v20.emovpn.xyz}, udp: true}
+  - {name: 「🇸🇬」EMO | 西贡蕉 x1, server: v32.emovpn.life, port: 8443, type: vmess, uuid: 570d1b0c-230f-4558-85bc-9be39e9228a7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v32.emovpn.xyz}, udp: true}
+  - {name: 「🇺🇸」EMO | 天元果 x1, server: v33.emovpn.life, port: 443, type: vmess, uuid: 570d1b0c-230f-4558-85bc-9be39e9228a7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v33.emovpn.xyz}, udp: true}
+  - {name: 「🇬🇧」EMO | 红富士 x1, server: v34.emovpn.xyz, port: 8443, type: vmess, uuid: 570d1b0c-230f-4558-85bc-9be39e9228a7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v34.emovpn.xyz}, udp: true}
+  - {name: 「🇫🇷」EMO | 冰糖心 x1, server: v35.emovpn.life, port: 443, type: vmess, uuid: 570d1b0c-230f-4558-85bc-9be39e9228a7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v35.emovpn.xyz}, udp: true}
+  - {name: 「🇩🇪」EMO | 冰灵果 x1, server: v37.emovpn.life, port: 8443, type: vmess, uuid: 570d1b0c-230f-4558-85bc-9be39e9228a7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v37.emovpn.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -32,6 +41,8 @@ proxy-groups:
       - ⚖️ IK-散列
       - ⚖️ 火星-轮询
       - ⚖️ 火星-散列
+      - ⚖️ EMO-轮询
+      - ⚖️ EMO-散列
       - ♻️ 自动选择
   - name: ♻️ 自动选择
     type: url-test
@@ -57,6 +68,13 @@ proxy-groups:
       - 火星互联 通知 @https://t.me/marsix2
       - 火星互联 https://console.marsix.net/
       - 火星互联 注册免费使用
+      - 「🇮🇳」EMO | 牛油果 x5
+      - 「🇺🇸」EMO | 芝麻蕉 x1
+      - 「🇸🇬」EMO | 西贡蕉 x1
+      - 「🇺🇸」EMO | 天元果 x1
+      - 「🇬🇧」EMO | 红富士 x1
+      - 「🇫🇷」EMO | 冰糖心 x1
+      - 「🇩🇪」EMO | 冰灵果 x1
   - name: ⚖️ IK-散列
     type: load-balance
     url: http://www.google.com/generate_204
@@ -119,6 +137,36 @@ proxy-groups:
       - 火星互联 通知 @https://t.me/marsix2
       - 火星互联 https://console.marsix.net/
       - 火星互联 注册免费使用 
+  - name: ⚖️ EMO-散列
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: consistent-hashing
+    proxies:
+      - "电报群: https://t.me/emovpn x1"
+      - 「加入会员解锁流媒体」x5
+      - 「🇮🇳」EMO | 牛油果 x5
+      - 「🇺🇸」EMO | 芝麻蕉 x1
+      - 「🇸🇬」EMO | 西贡蕉 x1
+      - 「🇺🇸」EMO | 天元果 x1
+      - 「🇬🇧」EMO | 红富士 x1
+      - 「🇫🇷」EMO | 冰糖心 x1
+      - 「🇩🇪」EMO | 冰灵果 x1
+  - name: ⚖️ EMO-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
+      - "电报群: https://t.me/emovpn x1"
+      - 「加入会员解锁流媒体」x5
+      - 「🇮🇳」EMO | 牛油果 x5
+      - 「🇺🇸」EMO | 芝麻蕉 x1
+      - 「🇸🇬」EMO | 西贡蕉 x1
+      - 「🇺🇸」EMO | 天元果 x1
+      - 「🇬🇧」EMO | 红富士 x1
+      - 「🇫🇷」EMO | 冰糖心 x1
+      - 「🇩🇪」EMO | 冰灵果 x1  
   - name: 🎥 NETFLIX
     type: select
     proxies:
