@@ -5,18 +5,18 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: G1Ver.4, server: jp01-alt-vm0.entry.srthdw.art, port: 21586, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: G2-Ver.5, server: jp02-vm0.entry.srthdw.art, port: 11778, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: G3Ver.4, server: jp03-alt-vm0.entry.srthdw.art, port: 21586, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: G4-Ver.4, server: jp04-vm0.entry.srthdw.art, port: 449, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: G5-Ver.6, server: jp05-vm0.entry.srthdw.art, port: 46487, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: G6-Ver.5, server: jp06-vm0.entry.jpojpoh.art, port: 28788, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: H 1Ver.4, server: jp01-alt-vm0.entry.srthdw.art, port: 21583, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: H 2-Ver.5, server: jp02-vm0.entry.srthdw.art, port: 11775, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: H 3Ver.4, server: jp03-alt-vm0.entry.srthdw.art, port: 21583, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: H 4-Ver.4, server: jp04-vm0.entry.srthdw.art, port: 446, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: H 5-Ver.6, server: jp05-vm0.entry.srthdw.art, port: 46484, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: H 6-Ver.5, server: jp06-vm0.entry.jpojpoh.art, port: 28785, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: G1Ver.4, server: jp01-alt-vm0.entry.srthdw.art, port: 21583, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: G2-Ver.5, server: jp02-vm0.entry.srthdw.art, port: 11775, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: G3Ver.4, server: jp03-alt-vm0.entry.srthdw.art, port: 21583, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: G4-Ver.4, server: jp04-vm0.entry.srthdw.art, port: 446, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: G5-Ver.6, server: jp05-vm0.entry.srthdw.art, port: 46484, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: G6-Ver.5, server: jp06-vm0.entry.jpojpoh.art, port: 28785, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: H1Ver.4, server: jp01-alt-vm0.entry.srthdw.art, port: 21586, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: H2-Ver.5, server: jp02-vm0.entry.srthdw.art, port: 11778, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: H3Ver.4, server: jp03-alt-vm0.entry.srthdw.art, port: 21586, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: H4-Ver.4, server: jp04-vm0.entry.srthdw.art, port: 449, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: H5-Ver.6, server: jp05-vm0.entry.srthdw.art, port: 46487, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: H6-Ver.5, server: jp06-vm0.entry.jpojpoh.art, port: 28788, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
   - {name: 火星互联公益节点02, server: free.themars.top, port: 32102, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
   - {name: 火星互联公益节点03, server: free.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
   - {name: 火星互联公益节点04, server: free.themars.top, port: 32104, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
@@ -28,8 +28,8 @@ proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
-      - ⚖️ IK-轮询
-      - ⚖️ IK-散列
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
       - ⚖️ 火星-轮询
       - ⚖️ 火星-散列
       - 🎯 全球直连
@@ -39,12 +39,12 @@ proxy-groups:
       - G4-Ver.4
       - G5-Ver.6
       - G6-Ver.5
-      - H 1Ver.4
-      - H 2-Ver.5
-      - H 3Ver.4
-      - H 4-Ver.4
-      - H 5-Ver.6
-      - H 6-Ver.5
+      - H1Ver.4
+      - H2-Ver.5
+      - H3Ver.4
+      - H4-Ver.4
+      - H5-Ver.6
+      - H6-Ver.5
       - 火星互联公益节点02
       - 火星互联公益节点03
       - 火星互联公益节点04
@@ -63,12 +63,12 @@ proxy-groups:
       - G4-Ver.4
       - G5-Ver.6
       - G6-Ver.5
-      - H 1Ver.4
-      - H 2-Ver.5
-      - H 3Ver.4
-      - H 4-Ver.4
-      - H 5-Ver.6
-      - H 6-Ver.5
+      - H1Ver.4
+      - H2-Ver.5
+      - H3Ver.4
+      - H4-Ver.4
+      - H5-Ver.6
+      - H6-Ver.5
       - 火星互联公益节点02
       - 火星互联公益节点03
       - 火星互联公益节点04
@@ -76,7 +76,7 @@ proxy-groups:
       - 火星互联 通知 @https://t.me/marsix2
       - 火星互联 https://console.marsix.net/
       - 火星互联 注册免费使用
-  - name: ⚖️ IK-散列
+  - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
@@ -88,13 +88,13 @@ proxy-groups:
       - G4-Ver.4
       - G5-Ver.6
       - G6-Ver.5
-      - H 1Ver.4
-      - H 2-Ver.5
-      - H 3Ver.4
-      - H 4-Ver.4
-      - H 5-Ver.6
-      - H 6-Ver.5
-  - name: ⚖️ IK-轮询
+      - H1Ver.4
+      - H2-Ver.5
+      - H3Ver.4
+      - H4-Ver.4
+      - H5-Ver.6
+      - H6-Ver.5
+  - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
@@ -106,12 +106,12 @@ proxy-groups:
       - G4-Ver.4
       - G5-Ver.6
       - G6-Ver.5
-      - H 1Ver.4
-      - H 2-Ver.5
-      - H 3Ver.4
-      - H 4-Ver.4
-      - H 5-Ver.6
-      - H 6-Ver.5
+      - H1Ver.4
+      - H2-Ver.5
+      - H3Ver.4
+      - H4-Ver.4
+      - H5-Ver.6
+      - H6-Ver.5
   - name: ⚖️ 火星-散列
     type: load-balance
     url: http://www.google.com/generate_204
@@ -137,7 +137,7 @@ proxy-groups:
       - 火星互联 电报群 @https://t.me/marsix1
       - 火星互联 通知 @https://t.me/marsix2
       - 火星互联 https://console.marsix.net/
-      - 火星互联 注册免费使用 
+      - 火星互联 注册免费使用       
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -150,12 +150,12 @@ proxy-groups:
       - G4-Ver.4
       - G5-Ver.6
       - G6-Ver.5
-      - H 1Ver.4
-      - H 2-Ver.5
-      - H 3Ver.4
-      - H 4-Ver.4
-      - H 5-Ver.6
-      - H 6-Ver.5
+      - H1Ver.4
+      - H2-Ver.5
+      - H3Ver.4
+      - H4-Ver.4
+      - H5-Ver.6
+      - H6-Ver.5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -179,12 +179,12 @@ proxy-groups:
       - G4-Ver.4
       - G5-Ver.6
       - G6-Ver.5
-      - H 1Ver.4
-      - H 2-Ver.5
-      - H 3Ver.4
-      - H 4-Ver.4
-      - H 5-Ver.6
-      - H 6-Ver.5
+      - H1Ver.4
+      - H2-Ver.5
+      - H3Ver.4
+      - H4-Ver.4
+      - H5-Ver.6
+      - H6-Ver.5
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -201,12 +201,12 @@ proxy-groups:
       - G4-Ver.4
       - G5-Ver.6
       - G6-Ver.5
-      - H 1Ver.4
-      - H 2-Ver.5
-      - H 3Ver.4
-      - H 4-Ver.4
-      - H 5-Ver.6
-      - H 6-Ver.5
+      - H1Ver.4
+      - H2-Ver.5
+      - H3Ver.4
+      - H4-Ver.4
+      - H5-Ver.6
+      - H6-Ver.5
   - name: 📲 电报信息
     type: select
     proxies:
@@ -218,12 +218,12 @@ proxy-groups:
       - G4-Ver.4
       - G5-Ver.6
       - G6-Ver.5
-      - H 1Ver.4
-      - H 2-Ver.5
-      - H 3Ver.4
-      - H 4-Ver.4
-      - H 5-Ver.6
-      - H 6-Ver.5
+      - H1Ver.4
+      - H2-Ver.5
+      - H3Ver.4
+      - H4-Ver.4
+      - H5-Ver.6
+      - H6-Ver.5
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -236,12 +236,12 @@ proxy-groups:
       - G4-Ver.4
       - G5-Ver.6
       - G6-Ver.5
-      - H 1Ver.4
-      - H 2-Ver.5
-      - H 3Ver.4
-      - H 4-Ver.4
-      - H 5-Ver.6
-      - H 6-Ver.5
+      - H1Ver.4
+      - H2-Ver.5
+      - H3Ver.4
+      - H4-Ver.4
+      - H5-Ver.6
+      - H6-Ver.5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -263,12 +263,12 @@ proxy-groups:
       - G4-Ver.4
       - G5-Ver.6
       - G6-Ver.5
-      - H 1Ver.4
-      - H 2-Ver.5
-      - H 3Ver.4
-      - H 4-Ver.4
-      - H 5-Ver.6
-      - H 6-Ver.5
+      - H1Ver.4
+      - H2-Ver.5
+      - H3Ver.4
+      - H4-Ver.4
+      - H5-Ver.6
+      - H6-Ver.5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
