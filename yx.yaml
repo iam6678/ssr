@@ -42,6 +42,7 @@ proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
+      - ♻️ 自动选择
       - ⚖️ 负载均衡-轮询
       - ⚖️ 负载均衡-散列
       - ⚖️ 火星-轮询
@@ -72,6 +73,20 @@ proxy-groups:
       - 火星互联 通知 @https://t.me/marsix2
       - 火星互联 https://console.marsix.net/
       - 火星互联 注册免费使用
+      - 用前更新(极速流畅)
+      - 更新失败(关闭即可)
+      - 香港核心 IEPL 01
+      - 香港核心 IEPL 02
+      - 香港核心 IEPL 03
+      - 香港核心 IEPL 04
+      - 新加坡核心 IEPL 01
+      - 新加坡核心 IEPL 02
+      - 新加坡核心 IEPL 03
+      - 新加坡核心 IEPL 04
+      - 美国核心 IEPL 01
+      - 美国核心 IEPL 02
+      - 美国核心 IEPL 03
+      - 美国核心 IEPL 04
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
