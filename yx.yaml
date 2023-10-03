@@ -24,6 +24,20 @@ proxies:
   - {name: 火星互联 通知 @https://t.me/marsix2, server: free.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
   - {name: 火星互联 https://console.marsix.net/, server: free.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
   - {name: 火星互联 注册免费使用, server: free.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
+  - {name: 用前更新(极速流畅), server: hk1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: hk1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: 更新失败(关闭即可), server: hk1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: hk1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: 香港核心 IEPL 01, server: hk1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: hk1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: 香港核心 IEPL 02, server: hk1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: hk1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: 香港核心 IEPL 03, server: hk2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: hk2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: 香港核心 IEPL 04, server: hk2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: hk2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: 新加坡核心 IEPL 01, server: sg1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: sg1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: 新加坡核心 IEPL 02, server: sg1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: sg1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: 新加坡核心 IEPL 03, server: sg2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: sg2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: 新加坡核心 IEPL 04, server: sg2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: sg2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: 美国核心 IEPL 01, server: us1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: us1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: 美国核心 IEPL 02, server: us1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: us1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: 美国核心 IEPL 03, server: us2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: us2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: 美国核心 IEPL 04, server: us1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: us1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -32,26 +46,8 @@ proxy-groups:
       - ⚖️ 负载均衡-散列
       - ⚖️ 火星-轮询
       - ⚖️ 火星-散列
-      - 🎯 全球直连
-      - G1Ver.4
-      - G2-Ver.5
-      - G3Ver.4
-      - G4-Ver.4
-      - G5-Ver.6
-      - G6-Ver.5
-      - H1Ver.4
-      - H2-Ver.5
-      - H3Ver.4
-      - H4-Ver.4
-      - H5-Ver.6
-      - H6-Ver.5
-      - 火星互联公益节点02
-      - 火星互联公益节点03
-      - 火星互联公益节点04
-      - 火星互联 电报群 @https://t.me/marsix1
-      - 火星互联 通知 @https://t.me/marsix2
-      - 火星互联 https://console.marsix.net/
-      - 火星互联 注册免费使用
+      - ⚖️ 便宜-轮询
+      - ⚖️ 便宜-散列
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -137,7 +133,47 @@ proxy-groups:
       - 火星互联 电报群 @https://t.me/marsix1
       - 火星互联 通知 @https://t.me/marsix2
       - 火星互联 https://console.marsix.net/
-      - 火星互联 注册免费使用       
+      - 火星互联 注册免费使用
+  - name: ⚖️ 便宜-散列
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: consistent-hashing
+    proxies:
+      - 用前更新(极速流畅)
+      - 更新失败(关闭即可)
+      - 香港核心 IEPL 01
+      - 香港核心 IEPL 02
+      - 香港核心 IEPL 03
+      - 香港核心 IEPL 04
+      - 新加坡核心 IEPL 01
+      - 新加坡核心 IEPL 02
+      - 新加坡核心 IEPL 03
+      - 新加坡核心 IEPL 04
+      - 美国核心 IEPL 01
+      - 美国核心 IEPL 02
+      - 美国核心 IEPL 03
+      - 美国核心 IEPL 04
+  - name: ⚖️ 便宜-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
+      - 用前更新(极速流畅)
+      - 更新失败(关闭即可)
+      - 香港核心 IEPL 01
+      - 香港核心 IEPL 02
+      - 香港核心 IEPL 03
+      - 香港核心 IEPL 04
+      - 新加坡核心 IEPL 01
+      - 新加坡核心 IEPL 02
+      - 新加坡核心 IEPL 03
+      - 新加坡核心 IEPL 04
+      - 美国核心 IEPL 01
+      - 美国核心 IEPL 02
+      - 美国核心 IEPL 03
+      - 美国核心 IEPL 04            
   - name: 🎥 NETFLIX
     type: select
     proxies:
