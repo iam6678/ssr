@@ -49,6 +49,39 @@ proxy-groups:
       - ⚖️ 火星-散列
       - ⚖️ 便宜-轮询
       - ⚖️ 便宜-散列
+      - G1Ver.4
+      - G2-Ver.5
+      - G3Ver.4
+      - G4-Ver.4
+      - G5-Ver.6
+      - G6-Ver.5
+      - H1Ver.4
+      - H2-Ver.5
+      - H3Ver.4
+      - H4-Ver.4
+      - H5-Ver.6
+      - H6-Ver.5
+      - 火星互联公益节点02
+      - 火星互联公益节点03
+      - 火星互联公益节点04
+      - 火星互联 电报群 @https://t.me/marsix1
+      - 火星互联 通知 @https://t.me/marsix2
+      - 火星互联 https://console.marsix.net/
+      - 火星互联 注册免费使用
+      - 用前更新(极速流畅)
+      - 更新失败(关闭即可)
+      - 香港核心 IEPL 01
+      - 香港核心 IEPL 02
+      - 香港核心 IEPL 03
+      - 香港核心 IEPL 04
+      - 新加坡核心 IEPL 01
+      - 新加坡核心 IEPL 02
+      - 新加坡核心 IEPL 03
+      - 新加坡核心 IEPL 04
+      - 美国核心 IEPL 01
+      - 美国核心 IEPL 02
+      - 美国核心 IEPL 03
+      - 美国核心 IEPL 04
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
