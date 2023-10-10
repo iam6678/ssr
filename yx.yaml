@@ -85,6 +85,9 @@ proxy-groups:
       - 美国核心 IEPL 02
       - 美国核心 IEPL 03
       - 美国核心 IEPL 04
+      - test
+      - SG
+      - us
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
