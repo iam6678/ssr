@@ -38,6 +38,9 @@ proxies:
   - {name: 美国核心 IEPL 02, server: us1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: us1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
   - {name: 美国核心 IEPL 03, server: us2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: us2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
   - {name: 美国核心 IEPL 04, server: us1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: us1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: test, server: ahjsgja.1145114.me, port: 80, type: vmess, uuid: ab7e57e9-97a7-463f-88e2-e0790a314925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /91819299-acb0-4f6c-db61, ws-headers: {Host: sg003.1145114.me}, udp: true}
+  - {name: SG, server: ahjsgja.1145114.me, port: 443, type: vmess, uuid: ab7e57e9-97a7-463f-88e2-e0790a314925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /91819299-acb0-4f6c-db61, ws-headers: {Host: sg003.1145114.me}, udp: true}
+  - {name: us, server: ahjsgja.1145114.me, port: 80, type: vmess, uuid: ab7e57e9-97a7-463f-88e2-e0790a314925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /91819299-acb0-4f6c-dafasfasffawas, ws-headers: {Host: usgadjdka.133487.tech}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -120,6 +123,9 @@ proxy-groups:
       - 美国核心 IEPL 02
       - 美国核心 IEPL 03
       - 美国核心 IEPL 04
+      - test
+      - SG
+      - us
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
