@@ -17,6 +17,10 @@ proxies:
   - {name: H 4-Ver.4, server: jp04-vm0.entry.srthdw.art, port: 446, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: H 5-Ver.6, server: jp05-vm0.entry.srthdw.art, port: 46484, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: H 6-Ver.5, server: jp06-vm0.entry.jpojpoh.art, port: 28785, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 美国 4, server: e2.rilegoef.buzz, port: 54004, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 3, server: e2.rilegoef.buzz, port: 54003, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 2, server: e2.rilegoef.buzz, port: 54002, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 1, server: e2.rilegoef.buzz, port: 54001, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -36,6 +40,10 @@ proxy-groups:
       - H 4-Ver.4
       - H 5-Ver.6
       - H 6-Ver.5
+      - 美国 4
+      - 美国 3
+      - 美国 2
+      - 美国 1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -53,6 +61,10 @@ proxy-groups:
       - H 4-Ver.4
       - H 5-Ver.6
       - H 6-Ver.5
+      - 美国 4
+      - 美国 3
+      - 美国 2
+      - 美国 1
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
