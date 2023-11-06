@@ -83,6 +83,10 @@ proxy-groups:
       - H 4-Ver.4
       - H 5-Ver.6
       - H 6-Ver.5
+      - 美国 4
+      - 美国 3
+      - 美国 2
+      - 美国 1
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
@@ -101,6 +105,10 @@ proxy-groups:
       - H 4-Ver.4
       - H 5-Ver.6
       - H 6-Ver.5
+      - 美国 4
+      - 美国 3
+      - 美国 2
+      - 美国 1
   - name: 🎥 NETFLIX
     type: select
     proxies:
