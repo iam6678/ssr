@@ -17,6 +17,10 @@ proxies:
   - {name: H4-Ver.4, server: jp04-vm0.entry.srthdw.art, port: 449, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: H5-Ver.6, server: jp05-vm0.entry.srthdw.art, port: 46487, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: H6-Ver.5, server: jp06-vm0.entry.jpojpoh.art, port: 28788, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 美国 4, server: e2.rilegoef.buzz, port: 54004, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 3, server: e2.rilegoef.buzz, port: 54003, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 2, server: e2.rilegoef.buzz, port: 54002, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 1, server: e2.rilegoef.buzz, port: 54001, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 火星互联公益节点02, server: free.themars.top, port: 32102, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
   - {name: 火星互联公益节点03, server: free.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
   - {name: 火星互联公益节点04, server: free.themars.top, port: 32104, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
@@ -69,6 +73,10 @@ proxy-groups:
       - H4-Ver.4
       - H5-Ver.6
       - H6-Ver.5
+      - 美国 4
+      - 美国 3
+      - 美国 2
+      - 美国 1
       - 火星互联公益节点02
       - 火星互联公益节点03
       - 火星互联公益节点04
