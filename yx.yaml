@@ -40,9 +40,6 @@ proxies:
   - {name: 新加坡 2, server: s4.rilegoef.buzz, port: 53002, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 新加坡 3, server: s4.rilegoef.buzz, port: 53003, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 新加坡 4, server: s4.rilegoef.buzz, port: 53004, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: test, server: ahjsgja.1145114.me, port: 80, type: vmess, uuid: ab7e57e9-97a7-463f-88e2-e0790a314925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /91819299-acb0-4f6c-db61, ws-headers: {Host: sg003.1145114.me}, udp: true}
-  - {name: SG, server: ahjsgja.1145114.me, port: 443, type: vmess, uuid: ab7e57e9-97a7-463f-88e2-e0790a314925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /91819299-acb0-4f6c-db61, ws-headers: {Host: sg003.1145114.me}, udp: true}
-  - {name: us, server: ahjsgja.1145114.me, port: 80, type: vmess, uuid: ab7e57e9-97a7-463f-88e2-e0790a314925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /91819299-acb0-4f6c-dafasfasffawas, ws-headers: {Host: usgadjdka.133487.tech}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -54,6 +51,34 @@ proxy-groups:
       - ⚖️ 火星-散列
       - ⚖️ 超级-轮询
       - ⚖️ 超级-散列
+      - G1Ver.4
+      - G2-Ver.5
+      - G3Ver.4
+      - G4-Ver.4
+      - G5-Ver.6
+      - G6-Ver.5
+      - H1Ver.4
+      - H2-Ver.5
+      - H3Ver.4
+      - H4-Ver.4
+      - H5-Ver.6
+      - H6-Ver.5
+      - 美国 4
+      - 美国 3
+      - 美国 2
+      - 美国 1
+      - 香港 1
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 日本 1
+      - 日本 2
+      - 日本 3
+      - 日本 4
+      - 新加坡 1
+      - 新加坡 2
+      - 新加坡 3
+      - 新加坡 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -94,9 +119,6 @@ proxy-groups:
       - 新加坡 2
       - 新加坡 3
       - 新加坡 4
-      - test
-      - SG
-      - us
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
