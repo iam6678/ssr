@@ -199,7 +199,7 @@ proxy-groups:
       - 火星互联 通知 @https://t.me/marsix2
       - 火星互联 https://console.marsix.net/
       - 火星互联 注册免费使用
-    - name: 🎥 NETFLIX
+  - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
