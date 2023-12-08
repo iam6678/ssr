@@ -17,10 +17,10 @@ proxies:
   - {name: H4-Ver.4, server: jp04-vm0.entry.srthdw.art, port: 449, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: H5-Ver.6, server: jp05-vm0.entry.srthdw.art, port: 46487, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: H6-Ver.5, server: jp06-vm0.entry.jpojpoh.art, port: 28788, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 美国 4, server: e2.rilegoef.buzz, port: 54004, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国 3, server: e2.rilegoef.buzz, port: 54003, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国 2, server: e2.rilegoef.buzz, port: 54002, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国 1, server: e2.rilegoef.buzz, port: 54001, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - { name: Hongkong-香港, type: trojan, server: frontend.kuangbiaoyun.com, port: 40001, password: c80ecfa7-a161-4806-80b9-a0440df56096, udp: true, skip-cert-verify: true }
+  - { name: Singapore-新加坡, type: trojan, server: frontend.kuangbiaoyun.com, port: 40006, password: c80ecfa7-a161-4806-80b9-a0440df56096, udp: true, skip-cert-verify: true }
+  - { name: USA-美国, type: trojan, server: frontend.kuangbiaoyun.com, port: 40007, password: c80ecfa7-a161-4806-80b9-a0440df56096, udp: true, skip-cert-verify: true }
+  - { name: Australia-澳大利亚, type: trojan, server: frontend.kuangbiaoyun.com, port: 40005, password: c80ecfa7-a161-4806-80b9-a0440df56096, udp: true, skip-cert-verify: true }
   - {name: 火星互联公益节点02, server: free.themars.top, port: 32102, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
   - {name: 火星互联公益节点03, server: free.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
   - {name: 火星互联公益节点04, server: free.themars.top, port: 32104, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
@@ -49,8 +49,6 @@ proxy-groups:
       - ⚖️ 负载均衡-散列
       - ⚖️ 火星-轮询
       - ⚖️ 火星-散列
-      - ⚖️ 超级-轮询
-      - ⚖️ 超级-散列
       - G1Ver.4
       - G2-Ver.5
       - G3Ver.4
@@ -63,10 +61,10 @@ proxy-groups:
       - H4-Ver.4
       - H5-Ver.6
       - H6-Ver.5
-      - 美国 4
-      - 美国 3
-      - 美国 2
-      - 美国 1
+      - Hongkong-香港
+      - Singapore-新加坡
+      - USA-美国
+      - Australia-澳大利亚
       - 香港 1
       - 香港 2
       - 香港 3
@@ -96,10 +94,10 @@ proxy-groups:
       - H4-Ver.4
       - H5-Ver.6
       - H6-Ver.5
-      - 美国 4
-      - 美国 3
-      - 美国 2
-      - 美国 1
+      - Hongkong-香港
+      - Singapore-新加坡
+      - USA-美国
+      - Australia-澳大利亚
       - 火星互联公益节点02
       - 火星互联公益节点03
       - 火星互联公益节点04
@@ -137,10 +135,10 @@ proxy-groups:
       - H4-Ver.4
       - H5-Ver.6
       - H6-Ver.5
-      - 美国 4
-      - 美国 3
-      - 美国 2
-      - 美国 1
+      - Hongkong-香港
+      - Singapore-新加坡
+      - USA-美国
+      - Australia-澳大利亚
       - 香港 1
       - 香港 2
       - 香港 3
@@ -171,10 +169,10 @@ proxy-groups:
       - H4-Ver.4
       - H5-Ver.6
       - H6-Ver.5
-      - 美国 4
-      - 美国 3
-      - 美国 2
-      - 美国 1
+      - Hongkong-香港
+      - Singapore-新加坡
+      - USA-美国
+      - Australia-澳大利亚
   - name: ⚖️ 火星-散列
     type: load-balance
     url: http://www.google.com/generate_204
@@ -201,51 +199,7 @@ proxy-groups:
       - 火星互联 通知 @https://t.me/marsix2
       - 火星互联 https://console.marsix.net/
       - 火星互联 注册免费使用
-  - name: ⚖️ 超级-散列
-    type: load-balance
-    url: http://www.google.com/generate_204
-    interval: 300
-    strategy: consistent-hashing
-    proxies:
-      - 香港 1
-      - 香港 2
-      - 香港 3
-      - 香港 4
-      - 日本 1
-      - 日本 2
-      - 日本 3
-      - 日本 4
-      - 新加坡 1
-      - 新加坡 2
-      - 新加坡 3
-      - 新加坡 4
-      - 美国 1
-      - 美国 2
-      - 美国 3
-      - 美国 4
-  - name: ⚖️ 超级-轮询
-    type: load-balance
-    url: http://www.google.com/generate_204
-    interval: 300
-    strategy: round-robin
-    proxies:
-      - 香港 1
-      - 香港 2
-      - 香港 3
-      - 香港 4
-      - 日本 1
-      - 日本 2
-      - 日本 3
-      - 日本 4
-      - 新加坡 1
-      - 新加坡 2
-      - 新加坡 3
-      - 新加坡 4
-      - 美国 1
-      - 美国 2
-      - 美国 3
-      - 美国 4           
-  - name: 🎥 NETFLIX
+    - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
