@@ -5,18 +5,18 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: G1Ver.4, server: jp01-alt-vm0.entry.srthdw.art, port: 21583, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: G2-Ver.5, server: jp02-vm0.entry.srthdw.art, port: 11775, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: G3Ver.4, server: jp03-alt-vm0.entry.srthdw.art, port: 21583, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: G4-Ver.4, server: jp04-vm0.entry.srthdw.art, port: 446, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: G5-Ver.6, server: jp05-vm0.entry.srthdw.art, port: 46484, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: G6-Ver.5, server: jp06-vm0.entry.jpojpoh.art, port: 28785, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: H1Ver.4, server: jp01-alt-vm0.entry.srthdw.art, port: 21586, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: H2-Ver.5, server: jp02-vm0.entry.srthdw.art, port: 11778, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: H3Ver.4, server: jp03-alt-vm0.entry.srthdw.art, port: 21586, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: H4-Ver.4, server: jp04-vm0.entry.srthdw.art, port: 449, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: H5-Ver.6, server: jp05-vm0.entry.srthdw.art, port: 46487, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: H6-Ver.5, server: jp06-vm0.entry.jpojpoh.art, port: 28788, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: G1Ver.4, server: jp01-alt-vm0.entry.srthdw.art, port: 21583, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: G2-Ver.5, server: jp02-vm0.entry.srthdw.art, port: 11775, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: G3Ver.4, server: jp03-alt-vm0.entry.srthdw.art, port: 21583, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: G4-Ver.4, server: jp04-vm0.entry.srthdw.art, port: 446, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: G5-Ver.6, server: jp05-vm0.entry.srthdw.art, port: 46484, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: G6-Ver.5, server: jp06-vm0.entry.jpojpoh.art, port: 28785, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: H1Ver.4, server: jp01-alt-vm0.entry.srthdw.art, port: 21586, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: H2-Ver.5, server: jp02-vm0.entry.srthdw.art, port: 11778, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: H3Ver.4, server: jp03-alt-vm0.entry.srthdw.art, port: 21586, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: H4-Ver.4, server: jp04-vm0.entry.srthdw.art, port: 449, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: H5-Ver.6, server: jp05-vm0.entry.srthdw.art, port: 46487, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: H6-Ver.5, server: jp06-vm0.entry.jpojpoh.art, port: 28788, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - { name: Hongkong-香港, type: trojan, server: frontend.kuangbiaoyun.com, port: 40001, password: c80ecfa7-a161-4806-80b9-a0440df56096, udp: true, skip-cert-verify: true }
   - { name: Singapore-新加坡, type: trojan, server: frontend.kuangbiaoyun.com, port: 40006, password: c80ecfa7-a161-4806-80b9-a0440df56096, udp: true, skip-cert-verify: true }
   - { name: USA-美国, type: trojan, server: frontend.kuangbiaoyun.com, port: 40007, password: c80ecfa7-a161-4806-80b9-a0440df56096, udp: true, skip-cert-verify: true }
