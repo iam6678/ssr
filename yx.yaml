@@ -105,6 +105,8 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
       - 🇯🇵 H1Ver.4
       - 🇯🇵 H2-Ver.5
       - 🇯🇵 H3Ver.4
@@ -190,6 +192,152 @@ proxy-groups:
       - Unlock services 05
       - Unlock services 07
       - Unlock services 09
+  - name: ⚖️ 负载均衡-散列
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: consistent-hashing
+    proxies:
+      - 🇯🇵 H1Ver.4
+      - 🇯🇵 H2-Ver.5
+      - 🇯🇵 H3Ver.4
+      - 🇯🇵 H4-Ver.5
+      - 🇯🇵 H5-Ver.6
+      - 🇯🇵 H6-Ver.5
+      - 🇯🇵 G1Ver.4
+      - 🇯🇵 G2-Ver.5
+      - 🇯🇵 G3Ver.4
+      - 🇯🇵 G4-Ver.5
+      - 🇯🇵 G5-Ver.6
+      - 🇯🇵 G6-Ver.5
+      - 免费限制网速 需要更快速度  🔻
+      - 日本 01 Free 限制网速
+      - 日本>深港隧道 0.5x
+      - 日本>>深港隧道 0.8x
+      - 韩国>直连
+      - 韩国>深港中转
+      - 韩国>>直连
+      - 韩国>>深港中转
+      - 新加坡>深港
+      - 新加坡>>深港
+      - 距离下次重置剩余：19 天
+      - 香港2 AmazonHK移动优化入口
+      - 香港3 AmazonJP三网优化入口
+      - 香港4 AmazonJP三网优化入口
+      - 日本1 AmazonJP三网优化入口
+      - 日本2 AmazonJP三网优化入口
+      - 日本3 AmazonHK移动优化入口
+      - 日本4 AmazonHK移动优化入口
+      - 新加坡1 AmazonHK移动优化入口
+      - 新加坡2 AmazonHK移动优化入口
+      - 新加坡3 AmazonJP三网优化入口
+      - 新加坡4 AmazonJP三网优化入口
+      - 美国1 AmazonJP三网优化入口
+      - 美国2 AmazonJP三网优化入口
+      - 美国3 AmazonHK移动优化入口
+      - 美国4 AmazonHK移动优化入口
+      - 新加坡01
+      - 新加坡02
+      - 日本01
+      - 韩国01
+      - 韩国02
+      - 台湾01
+      - 台湾02
+      - 迪拜01
+      - 美国01
+      - 美国02
+      - 美国03
+      - 德国01
+      - 德国02
+      - 澳大利亚01
+      - 意大利01
+      - 荷兰01
+      - 法国01
+      - 巴西01
+      - 巴西02
+      - Traffic Reset：7 Days Left
+      - 香港核心 IEPL 03
+      - 香港核心 IEPL 05
+      - Japan Native 01
+      - Japan Native 03
+      - Unlock services 01
+      - Unlock services 03
+      - Unlock services 05
+      - Unlock services 07
+      - Unlock services 09
+  - name: ⚖️ 负载均衡-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
+      - 🇯🇵 H1Ver.4
+      - 🇯🇵 H2-Ver.5
+      - 🇯🇵 H3Ver.4
+      - 🇯🇵 H4-Ver.5
+      - 🇯🇵 H5-Ver.6
+      - 🇯🇵 H6-Ver.5
+      - 🇯🇵 G1Ver.4
+      - 🇯🇵 G2-Ver.5
+      - 🇯🇵 G3Ver.4
+      - 🇯🇵 G4-Ver.5
+      - 🇯🇵 G5-Ver.6
+      - 🇯🇵 G6-Ver.5
+      - 免费限制网速 需要更快速度  🔻
+      - 日本 01 Free 限制网速
+      - 日本>深港隧道 0.5x
+      - 日本>>深港隧道 0.8x
+      - 韩国>直连
+      - 韩国>深港中转
+      - 韩国>>直连
+      - 韩国>>深港中转
+      - 新加坡>深港
+      - 新加坡>>深港
+      - 距离下次重置剩余：19 天
+      - 香港2 AmazonHK移动优化入口
+      - 香港3 AmazonJP三网优化入口
+      - 香港4 AmazonJP三网优化入口
+      - 日本1 AmazonJP三网优化入口
+      - 日本2 AmazonJP三网优化入口
+      - 日本3 AmazonHK移动优化入口
+      - 日本4 AmazonHK移动优化入口
+      - 新加坡1 AmazonHK移动优化入口
+      - 新加坡2 AmazonHK移动优化入口
+      - 新加坡3 AmazonJP三网优化入口
+      - 新加坡4 AmazonJP三网优化入口
+      - 美国1 AmazonJP三网优化入口
+      - 美国2 AmazonJP三网优化入口
+      - 美国3 AmazonHK移动优化入口
+      - 美国4 AmazonHK移动优化入口
+      - 新加坡01
+      - 新加坡02
+      - 日本01
+      - 韩国01
+      - 韩国02
+      - 台湾01
+      - 台湾02
+      - 迪拜01
+      - 美国01
+      - 美国02
+      - 美国03
+      - 德国01
+      - 德国02
+      - 澳大利亚01
+      - 意大利01
+      - 荷兰01
+      - 法国01
+      - 巴西01
+      - 巴西02
+      - Traffic Reset：7 Days Left
+      - 香港核心 IEPL 03
+      - 香港核心 IEPL 05
+      - Japan Native 01
+      - Japan Native 03
+      - Unlock services 01
+      - Unlock services 03
+      - Unlock services 05
+      - Unlock services 07
+      - Unlock services 09 
   - name: 🌏 爱奇艺&哔哩哔哩
     type: select
     proxies:
