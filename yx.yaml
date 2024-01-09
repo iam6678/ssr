@@ -45,61 +45,63 @@ proxies:
   - {name: 🇯🇵 G4-Ver.5, server: jp04-alt-vm0.entry.srthdw.art, port: 446, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 G5-Ver.6, server: jp05-vm0.entry.srthdw.art, port: 46484, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 G6-Ver.5, server: jp06-vm0.entry.jpojpoh.art, port: 28785, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 免费限制网速 需要更快速度  🔻, server: freeus.tgyujcchannel.site, port: 80, type: vmess, uuid: 41a7b7fe-5957-4c87-8830-15d05ee8fbf2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: freeus.tgyujcchannel.site}, udp: true}
-  - {name: 日本 01 Free 限制网速, server: freejp.tgyujcchannel.site, port: 80, type: vmess, uuid: 41a7b7fe-5957-4c87-8830-15d05ee8fbf2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: freejp.tgyujcchannel.site}, udp: true}
-  - {name: 日本>深港隧道 0.5x, server: sb.xfdns.fun, port: 10019, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
-  - {name: 日本>>深港隧道 0.8x, server: sb.xfdns.fun, port: 10021, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
+  - {name: 日本>直连, server: 168.138.41.87, port: 20800, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
+  - {name: 日本>>直连, server: jpdb2.ip8.shop, port: 63850, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
   - {name: 韩国>直连, server: krse4.ip8.shop, port: 20350, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
-  - {name: 韩国>深港中转, server: sb.xfdns.fun, port: 10023, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
   - {name: 韩国>>直连, server: krse11.ip8.shop, port: 21400, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
-  - {name: 韩国>>深港中转, server: sb.xfdns.fun, port: 10024, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
-  - {name: 新加坡>深港, server: sb.xfdns.fun, port: 10025, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
-  - {name: 新加坡>>深港, server: sb.xfdns.fun, port: 10027, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
-  - {name: 距离下次重置剩余：19 天, server: cmhk.zzzzzl.me, port: 16722, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cmhk.zzzzzl.me}, udp: true}
-  - {name: 香港2 AmazonHK移动优化入口, server: cmhk.zzzzzl.me, port: 43025, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cmhk.zzzzzl.me}, udp: true}
-  - {name: 香港3 AmazonJP三网优化入口, server: bgphk.zzzzzl.me, port: 52988, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: bgphk.zzzzzl.me}, udp: true}
-  - {name: 香港4 AmazonJP三网优化入口, server: bgphk.zzzzzl.me, port: 52930, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: bgphk.zzzzzl.me}, udp: true}
-  - {name: 日本1 AmazonJP三网优化入口, server: bgpjp.zzzzzl.me, port: 46122, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: bgpjp.zzzzzl.me}, udp: true}
-  - {name: 日本2 AmazonJP三网优化入口, server: bgpjp.zzzzzl.me, port: 57423, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: bgpjp.zzzzzl.me}, udp: true}
-  - {name: 日本3 AmazonHK移动优化入口, server: cmjp.zzzzzl.me, port: 15313, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cmjp.zzzzzl.me}, udp: true}
-  - {name: 日本4 AmazonHK移动优化入口, server: cmjp.zzzzzl.me, port: 50753, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cmjp.zzzzzl.me}, udp: true}
-  - {name: 新加坡1 AmazonHK移动优化入口, server: cmsg.zzzzzl.me, port: 51696, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cmsg.zzzzzl.me}, udp: true}
-  - {name: 新加坡2 AmazonHK移动优化入口, server: cmsg.zzzzzl.me, port: 27828, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cmsg.zzzzzl.me}, udp: true}
-  - {name: 新加坡3 AmazonJP三网优化入口, server: bgpsg.zzzzzl.me, port: 22113, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: bgpsg.zzzzzl.me}, udp: true}
-  - {name: 新加坡4 AmazonJP三网优化入口, server: bgpsg.zzzzzl.me, port: 14628, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: bgpsg.zzzzzl.me}, udp: true}
-  - {name: 美国1 AmazonJP三网优化入口, server: bgpus.zzzzzl.me, port: 38062, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: bgpus.zzzzzl.me}, udp: true}
-  - {name: 美国2 AmazonJP三网优化入口, server: bgpus.zzzzzl.me, port: 29801, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: bgpus.zzzzzl.me}, udp: true}
-  - {name: 美国3 AmazonHK移动优化入口, server: cmus.zzzzzl.me, port: 13103, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cmus.zzzzzl.me}, udp: true}
-  - {name: 美国4 AmazonHK移动优化入口, server: cmus.zzzzzl.me, port: 46212, type: vmess, uuid: ebfb5f49-b5bd-4505-afde-506918188bf6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cmus.zzzzzl.me}, udp: true}
-  - {name: 新加坡01, server: sg3.doushimeng.com, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 54075c33-224b-4851-99fa-2f5cd3ff8eac, udp: true}
-  - {name: 新加坡02, server: sgggg.doushimeng.com, port: 21552, type: ss, cipher: chacha20-ietf-poly1305, password: 54075c33-224b-4851-99fa-2f5cd3ff8eac, udp: true}
-  - {name: 日本01, server: jp.doushimeng.com, port: 21853, type: ss, cipher: chacha20-ietf-poly1305, password: 54075c33-224b-4851-99fa-2f5cd3ff8eac, udp: true}
-  - {name: 韩国01, server: kr.doushimeng.com, port: 22903, type: ss, cipher: chacha20-ietf-poly1305, password: 54075c33-224b-4851-99fa-2f5cd3ff8eac, udp: true}
-  - {name: 韩国02, server: dl4.doushimeng.com, port: 2086, type: vmess, uuid: 54075c33-224b-4851-99fa-2f5cd3ff8eac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /asdas, ws-headers: {Host: cf-kr2s2.doushimeng.com}, udp: true}
-  - {name: 台湾01, server: dl1.doushimeng.com, port: 80, type: vmess, uuid: 54075c33-224b-4851-99fa-2f5cd3ff8eac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /asdas, ws-headers: {Host: cf-twww2.doushimeng.com}, udp: true}
-  - {name: 台湾02, server: tw.doushimeng.com, port: 46661, type: ss, cipher: chacha20-ietf-poly1305, password: 54075c33-224b-4851-99fa-2f5cd3ff8eac, udp: true}
-  - {name: 迪拜01, server: db.doushimeng.com, port: 23202, type: ss, cipher: chacha20-ietf-poly1305, password: 54075c33-224b-4851-99fa-2f5cd3ff8eac, udp: true}
-  - {name: 美国01, server: us4.doushimeng.com, port: 20802, type: ss, cipher: chacha20-ietf-poly1305, password: 54075c33-224b-4851-99fa-2f5cd3ff8eac, udp: true}
-  - {name: 美国02, server: dl6.doushimeng.com, port: 2095, type: vmess, uuid: 54075c33-224b-4851-99fa-2f5cd3ff8eac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /asdas, ws-headers: {Host: cf-usss2.doushimeng.com}, udp: true}
-  - {name: 美国03, server: us.doushimeng.com, port: 20453, type: ss, cipher: chacha20-ietf-poly1305, password: 54075c33-224b-4851-99fa-2f5cd3ff8eac, udp: true}
-  - {name: 德国01, server: dl3.doushimeng.com, port: 2082, type: vmess, uuid: 54075c33-224b-4851-99fa-2f5cd3ff8eac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /asdas, ws-headers: {Host: cf-de2ss2.doushimeng.com}, udp: true}
-  - {name: 德国02, server: dl1.doushimeng.com, port: 2086, type: vmess, uuid: 54075c33-224b-4851-99fa-2f5cd3ff8eac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /asdas, ws-headers: {Host: cf-de660s.doushimeng.com}, udp: true}
-  - {name: 澳大利亚01, server: au.doushimeng.com, port: 24652, type: ss, cipher: chacha20-ietf-poly1305, password: 54075c33-224b-4851-99fa-2f5cd3ff8eac, udp: true}
-  - {name: 意大利01, server: it.doushimeng.com, port: 21102, type: ss, cipher: chacha20-ietf-poly1305, password: 54075c33-224b-4851-99fa-2f5cd3ff8eac, udp: true}
-  - {name: 荷兰01, server: dl1.doushimeng.com, port: 2082, type: vmess, uuid: 54075c33-224b-4851-99fa-2f5cd3ff8eac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /asdas, ws-headers: {Host: cf-nlsss2.nicehand.top}, udp: true}
-  - {name: 法国01, server: dl1.doushimeng.com, port: 2082, type: vmess, uuid: 54075c33-224b-4851-99fa-2f5cd3ff8eac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /asdas, ws-headers: {Host: cf-frsss0.nicehand.top}, udp: true}
-  - {name: 巴西01, server: dl1.doushimeng.com, port: 2086, type: vmess, uuid: 54075c33-224b-4851-99fa-2f5cd3ff8eac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /uziiii, ws-headers: {Host: cf-bx1ss0.nicehand.top}, udp: true}
-  - {name: 巴西02, server: dl1x.doushimeng.com, port: 80, type: vmess, uuid: 54075c33-224b-4851-99fa-2f5cd3ff8eac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /uziiii, ws-headers: {Host: cf-bx2ss0.nicehand.top}, udp: true}
-  - {name: Traffic Reset：7 Days Left, server: hk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: hk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
-  - {name: 香港核心 IEPL 03, server: hk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: hk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
-  - {name: 香港核心 IEPL 05, server: hk3.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: hk3.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
-  - {name: Japan Native 01, server: jp1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: jp1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
-  - {name: Japan Native 03, server: jp2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: jp2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
-  - {name: Unlock services 01, server: unlk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 20152, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: unlk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
-  - {name: Unlock services 03, server: unlk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 20802, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: unlk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
-  - {name: Unlock services 05, server: unlk3.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 21852, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: unlk3.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
-  - {name: Unlock services 07, server: unlk4.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 21152, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: unlk4.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
-  - {name: Unlock services 09, server: unlk5.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 25002, type: trojan, password: 67e51576-1dbf-4f7e-aa94-002501bab6de, sni: unlk5.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 直连, server: sg6.ip8.shop, port: 20549, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
+  - {name: 新加坡>直连, server: sg6.ip8.shop, port: 20550, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
+  - {name: 新加坡01, server: sg3.doushimeng.com, port: 20053, type: ss, cipher: chacha20-ietf-poly1305, password: 8737165c-9942-49f9-8b9b-94b8217c36c5, udp: true}
+  - {name: 日本01, server: jp.doushimeng.com, port: 21853, type: ss, cipher: chacha20-ietf-poly1305, password: 8737165c-9942-49f9-8b9b-94b8217c36c5, udp: true}
+  - {name: 美国01, server: us4.doushimeng.com, port: 20802, type: ss, cipher: chacha20-ietf-poly1305, password: 8737165c-9942-49f9-8b9b-94b8217c36c5, udp: true}
+  - {name: 德国01, server: dl3.doushimeng.com, port: 2082, type: vmess, uuid: 8737165c-9942-49f9-8b9b-94b8217c36c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /asdas, ws-headers: {Host: cf-de9.doushimeng.com}, udp: true}
+  - {name: 去除14条不合适线路, server: 104.17.76.116, port: 80, type: vmess, uuid: 71c0ab6c-b9ef-48a9-80d2-87e5d376ae40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: usfree.1234585.xyz}, udp: true}
+  - {name: G美国-免费, server: 104.17.76.116, port: 80, type: vmess, uuid: 71c0ab6c-b9ef-48a9-80d2-87e5d376ae40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: usfree.1234585.xyz}, udp: true}
+  - {name: A 韩国, server: krse11.ip8.shop, port: 36700, type: ss, cipher: aes-256-gcm, password: 71c0ab6c-b9ef-48a9-80d2-87e5d376ae40, udp: true}
+  - {name: B 韩国, server: krse10.ip8.shop, port: 63150, type: ss, cipher: aes-128-gcm, password: 71c0ab6c-b9ef-48a9-80d2-87e5d376ae40, udp: true}
+  - {name: C韩国, server: kr-seoul-oracle-64dc93.ip8.shop, port: 54500, type: ss, cipher: aes-256-gcm, password: 71c0ab6c-b9ef-48a9-80d2-87e5d376ae40, udp: true}
+  - {name: 金正恩家宽, server: 172.64.135.137, port: 80, type: vmess, uuid: 71c0ab6c-b9ef-48a9-80d2-87e5d376ae40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kp.1234585.xyz}, udp: true}
+  - {name: 南极洲, server: 172.64.135.137, port: 80, type: vmess, uuid: 71c0ab6c-b9ef-48a9-80d2-87e5d376ae40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aq.1234585.xyz}, udp: true}
+  - {name: 距离下次重置剩余：6 天, server: api.sg.db1.rilegoef.buzz, port: 12001, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.sg.db1.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡1 AWSHK移动优化入口, server: api.sg.db1.rilegoef.buzz, port: 12001, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.sg.db1.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡2 AWSHK移动优化入口, server: api.sg.db1.rilegoef.buzz, port: 12002, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.sg.db1.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡3 AZHK边缘优化入口, server: api.sg.db2.rilegoef.buzz, port: 12003, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.sg.db2.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡4 AZHK边缘优化入口, server: api.sg.db2.rilegoef.buzz, port: 12004, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.sg.db2.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡5 AZSG电信优化入口, server: api.sg.db4.rilegoef.buzz, port: 12007, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.sg.db4.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡6 AZSG电信优化入口, server: api.sg.db4.rilegoef.buzz, port: 12008, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.sg.db4.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡7 AZJP三网优化入口, server: api.sg.db3.rilegoef.buzz, port: 12006, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.sg.db3.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡8 AZJP三网优化入口, server: api.sg.db3.rilegoef.buzz, port: 12005, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.sg.db3.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 日本1 AZJP三网优化入口, server: api.jp.db1.azure.rilegoef.buzz, port: 13001, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.jp.db1.azure.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 日本2 AZJP三网优化入口, server: api.jp.db1.azure.rilegoef.buzz, port: 13002, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.jp.db1.azure.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 日本3 AWSHK移动优化入口, server: api.jp.db2.azure.rilegoef.buzz, port: 13003, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.jp.db2.azure.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 日本4 AWSHK移动优化入口, server: api.jp.db2.azure.rilegoef.buzz, port: 13004, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.jp.db2.azure.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 日本5 AZHK边缘优化入口, server: api.jp.db3.azure.rilegoef.buzz, port: 13005, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.jp.db3.azure.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 日本6 AZHK边缘优化入口, server: api.jp.db3.azure.rilegoef.buzz, port: 13006, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.jp.db3.azure.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 日本7 AZSG电信优化入口, server: api.jp.db4.azure.rilegoef.buzz, port: 13007, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.jp.db4.azure.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 日本8 AZSG电信优化入口, server: api.jp.db4.azure.rilegoef.buzz, port: 13008, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.jp.db4.azure.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 美国1 AZJP三网优化入口, server: api.us.db1.amazon.rilegoef.buzz, port: 14001, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.us.db1.amazon.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 美国2 AZJP三网优化入口, server: api.us.db1.amazon.rilegoef.buzz, port: 14002, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.us.db1.amazon.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 美国3 AWSHK移动优化入口, server: api.us.db2.amazon.rilegoef.buzz, port: 14003, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.us.db2.amazon.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 美国4 AWSHK移动优化入口, server: api.us.db2.amazon.rilegoef.buzz, port: 14004, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.us.db2.amazon.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 美国5 AZHK边缘优化入口, server: api.us.db3.amazon.rilegoef.buzz, port: 14005, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.us.db3.amazon.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 美国6 AZHK边缘优化入口, server: api.us.db3.amazon.rilegoef.buzz, port: 14006, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.us.db3.amazon.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 美国7 AZSG电信优化入口, server: api.us.db4.amazon.rilegoef.buzz, port: 14007, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.us.db4.amazon.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 美国8 AZSG电信优化入口, server: api.us.db4.amazon.rilegoef.buzz, port: 14008, type: trojan, password: ebfb5f49-b5bd-4505-afde-506918188bf6, sni: api.us.db4.amazon.rilegoef.buzz, skip-cert-verify: true, udp: true}
+  - {name: 日本>直连 2, server: 168.138.41.87, port: 20800, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
+  - {name: 日本>>直连 2, server: jpdb2.ip8.shop, port: 63850, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
+  - {name: 韩国>直连 2, server: krse4.ip8.shop, port: 20350, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
+  - {name: 韩国>>直连 2, server: krse11.ip8.shop, port: 21400, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
+  - {name: 新加坡 直连 2, server: sg6.ip8.shop, port: 20549, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
+  - {name: 新加坡>直连 2, server: sg6.ip8.shop, port: 20550, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
+  - {name: 距离下次重置剩余：22 天, server: free-relay.m.themars.top, port: 32102, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
+  - {name: 火星互联公益节点01, server: free-relay.m.themars.top, port: 32102, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
+  - {name: 火星互联公益节点02, server: free-relay.m.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
+  - {name: 火星互联公益节点03, server: free-relay.m.themars.top, port: 32104, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
+  - {name: 火星互联 电报群 @https://t.me/marsix1, server: free-relay.m.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
+  - {name: 火星互联 通知 @https://t.me/marsix2, server: free-relay.m.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
+  - {name: 火星互联 https://ss.marsix.xyz, server: free-relay.m.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
+  - {name: 火星互联 注册免费使用, server: free-relay.m.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
+  - {name: 动态无墙 http://172.104.185.169:9443/, server: free-relay.m.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
 proxy-groups:
   - name: 🔰 选择节点
     type: select
@@ -137,61 +139,63 @@ proxy-groups:
       - 🇯🇵 G4-Ver.5
       - 🇯🇵 G5-Ver.6
       - 🇯🇵 G6-Ver.5
-      - 免费限制网速 需要更快速度  🔻
-      - 日本 01 Free 限制网速
-      - 日本>深港隧道 0.5x
-      - 日本>>深港隧道 0.8x
+      - 日本>直连
+      - 日本>>直连
       - 韩国>直连
-      - 韩国>深港中转
       - 韩国>>直连
-      - 韩国>>深港中转
-      - 新加坡>深港
-      - 新加坡>>深港
-      - 距离下次重置剩余：19 天
-      - 香港2 AmazonHK移动优化入口
-      - 香港3 AmazonJP三网优化入口
-      - 香港4 AmazonJP三网优化入口
-      - 日本1 AmazonJP三网优化入口
-      - 日本2 AmazonJP三网优化入口
-      - 日本3 AmazonHK移动优化入口
-      - 日本4 AmazonHK移动优化入口
-      - 新加坡1 AmazonHK移动优化入口
-      - 新加坡2 AmazonHK移动优化入口
-      - 新加坡3 AmazonJP三网优化入口
-      - 新加坡4 AmazonJP三网优化入口
-      - 美国1 AmazonJP三网优化入口
-      - 美国2 AmazonJP三网优化入口
-      - 美国3 AmazonHK移动优化入口
-      - 美国4 AmazonHK移动优化入口
+      - 新加坡 直连
+      - 新加坡>直连
       - 新加坡01
-      - 新加坡02
       - 日本01
-      - 韩国01
-      - 韩国02
-      - 台湾01
-      - 台湾02
-      - 迪拜01
       - 美国01
-      - 美国02
-      - 美国03
       - 德国01
-      - 德国02
-      - 澳大利亚01
-      - 意大利01
-      - 荷兰01
-      - 法国01
-      - 巴西01
-      - 巴西02
-      - Traffic Reset：7 Days Left
-      - 香港核心 IEPL 03
-      - 香港核心 IEPL 05
-      - Japan Native 01
-      - Japan Native 03
-      - Unlock services 01
-      - Unlock services 03
-      - Unlock services 05
-      - Unlock services 07
-      - Unlock services 09
+      - 去除14条不合适线路
+      - G美国-免费
+      - A 韩国
+      - B 韩国
+      - C韩国
+      - 金正恩家宽
+      - 南极洲
+      - 距离下次重置剩余：6 天
+      - 新加坡1 AWSHK移动优化入口
+      - 新加坡2 AWSHK移动优化入口
+      - 新加坡3 AZHK边缘优化入口
+      - 新加坡4 AZHK边缘优化入口
+      - 新加坡5 AZSG电信优化入口
+      - 新加坡6 AZSG电信优化入口
+      - 新加坡7 AZJP三网优化入口
+      - 新加坡8 AZJP三网优化入口
+      - 日本1 AZJP三网优化入口
+      - 日本2 AZJP三网优化入口
+      - 日本3 AWSHK移动优化入口
+      - 日本4 AWSHK移动优化入口
+      - 日本5 AZHK边缘优化入口
+      - 日本6 AZHK边缘优化入口
+      - 日本7 AZSG电信优化入口
+      - 日本8 AZSG电信优化入口
+      - 美国1 AZJP三网优化入口
+      - 美国2 AZJP三网优化入口
+      - 美国3 AWSHK移动优化入口
+      - 美国4 AWSHK移动优化入口
+      - 美国5 AZHK边缘优化入口
+      - 美国6 AZHK边缘优化入口
+      - 美国7 AZSG电信优化入口
+      - 美国8 AZSG电信优化入口
+      - 日本>直连 2
+      - 日本>>直连 2
+      - 韩国>直连 2
+      - 韩国>>直连 2
+      - 新加坡 直连 2
+      - 新加坡>直连 2
+      - 距离下次重置剩余：22 天
+      - 火星互联公益节点01
+      - 火星互联公益节点02
+      - 火星互联公益节点03
+      - 火星互联 电报群 @https://t.me/marsix1
+      - 火星互联 通知 @https://t.me/marsix2
+      - 火星互联 https://ss.marsix.xyz
+      - 火星互联 注册免费使用
+      - 动态无墙 http://172.104.185.169:9443/
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
@@ -210,61 +214,63 @@ proxy-groups:
       - 🇯🇵 G4-Ver.5
       - 🇯🇵 G5-Ver.6
       - 🇯🇵 G6-Ver.5
-      - 免费限制网速 需要更快速度  🔻
-      - 日本 01 Free 限制网速
-      - 日本>深港隧道 0.5x
-      - 日本>>深港隧道 0.8x
+      - 日本>直连
+      - 日本>>直连
       - 韩国>直连
-      - 韩国>深港中转
       - 韩国>>直连
-      - 韩国>>深港中转
-      - 新加坡>深港
-      - 新加坡>>深港
-      - 距离下次重置剩余：19 天
-      - 香港2 AmazonHK移动优化入口
-      - 香港3 AmazonJP三网优化入口
-      - 香港4 AmazonJP三网优化入口
-      - 日本1 AmazonJP三网优化入口
-      - 日本2 AmazonJP三网优化入口
-      - 日本3 AmazonHK移动优化入口
-      - 日本4 AmazonHK移动优化入口
-      - 新加坡1 AmazonHK移动优化入口
-      - 新加坡2 AmazonHK移动优化入口
-      - 新加坡3 AmazonJP三网优化入口
-      - 新加坡4 AmazonJP三网优化入口
-      - 美国1 AmazonJP三网优化入口
-      - 美国2 AmazonJP三网优化入口
-      - 美国3 AmazonHK移动优化入口
-      - 美国4 AmazonHK移动优化入口
+      - 新加坡 直连
+      - 新加坡>直连
       - 新加坡01
-      - 新加坡02
       - 日本01
-      - 韩国01
-      - 韩国02
-      - 台湾01
-      - 台湾02
-      - 迪拜01
       - 美国01
-      - 美国02
-      - 美国03
       - 德国01
-      - 德国02
-      - 澳大利亚01
-      - 意大利01
-      - 荷兰01
-      - 法国01
-      - 巴西01
-      - 巴西02
-      - Traffic Reset：7 Days Left
-      - 香港核心 IEPL 03
-      - 香港核心 IEPL 05
-      - Japan Native 01
-      - Japan Native 03
-      - Unlock services 01
-      - Unlock services 03
-      - Unlock services 05
-      - Unlock services 07
-      - Unlock services 09
+      - 去除14条不合适线路
+      - G美国-免费
+      - A 韩国
+      - B 韩国
+      - C韩国
+      - 金正恩家宽
+      - 南极洲
+      - 距离下次重置剩余：6 天
+      - 新加坡1 AWSHK移动优化入口
+      - 新加坡2 AWSHK移动优化入口
+      - 新加坡3 AZHK边缘优化入口
+      - 新加坡4 AZHK边缘优化入口
+      - 新加坡5 AZSG电信优化入口
+      - 新加坡6 AZSG电信优化入口
+      - 新加坡7 AZJP三网优化入口
+      - 新加坡8 AZJP三网优化入口
+      - 日本1 AZJP三网优化入口
+      - 日本2 AZJP三网优化入口
+      - 日本3 AWSHK移动优化入口
+      - 日本4 AWSHK移动优化入口
+      - 日本5 AZHK边缘优化入口
+      - 日本6 AZHK边缘优化入口
+      - 日本7 AZSG电信优化入口
+      - 日本8 AZSG电信优化入口
+      - 美国1 AZJP三网优化入口
+      - 美国2 AZJP三网优化入口
+      - 美国3 AWSHK移动优化入口
+      - 美国4 AWSHK移动优化入口
+      - 美国5 AZHK边缘优化入口
+      - 美国6 AZHK边缘优化入口
+      - 美国7 AZSG电信优化入口
+      - 美国8 AZSG电信优化入口
+      - 日本>直连 2
+      - 日本>>直连 2
+      - 韩国>直连 2
+      - 韩国>>直连 2
+      - 新加坡 直连 2
+      - 新加坡>直连 2
+      - 距离下次重置剩余：22 天
+      - 火星互联公益节点01
+      - 火星互联公益节点02
+      - 火星互联公益节点03
+      - 火星互联 电报群 @https://t.me/marsix1
+      - 火星互联 通知 @https://t.me/marsix2
+      - 火星互联 https://ss.marsix.xyz
+      - 火星互联 注册免费使用
+      - 动态无墙 http://172.104.185.169:9443/
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
@@ -283,61 +289,63 @@ proxy-groups:
       - 🇯🇵 G4-Ver.5
       - 🇯🇵 G5-Ver.6
       - 🇯🇵 G6-Ver.5
-      - 免费限制网速 需要更快速度  🔻
-      - 日本 01 Free 限制网速
-      - 日本>深港隧道 0.5x
-      - 日本>>深港隧道 0.8x
+      - 日本>直连
+      - 日本>>直连
       - 韩国>直连
-      - 韩国>深港中转
       - 韩国>>直连
-      - 韩国>>深港中转
-      - 新加坡>深港
-      - 新加坡>>深港
-      - 距离下次重置剩余：19 天
-      - 香港2 AmazonHK移动优化入口
-      - 香港3 AmazonJP三网优化入口
-      - 香港4 AmazonJP三网优化入口
-      - 日本1 AmazonJP三网优化入口
-      - 日本2 AmazonJP三网优化入口
-      - 日本3 AmazonHK移动优化入口
-      - 日本4 AmazonHK移动优化入口
-      - 新加坡1 AmazonHK移动优化入口
-      - 新加坡2 AmazonHK移动优化入口
-      - 新加坡3 AmazonJP三网优化入口
-      - 新加坡4 AmazonJP三网优化入口
-      - 美国1 AmazonJP三网优化入口
-      - 美国2 AmazonJP三网优化入口
-      - 美国3 AmazonHK移动优化入口
-      - 美国4 AmazonHK移动优化入口
+      - 新加坡 直连
+      - 新加坡>直连
       - 新加坡01
-      - 新加坡02
       - 日本01
-      - 韩国01
-      - 韩国02
-      - 台湾01
-      - 台湾02
-      - 迪拜01
       - 美国01
-      - 美国02
-      - 美国03
       - 德国01
-      - 德国02
-      - 澳大利亚01
-      - 意大利01
-      - 荷兰01
-      - 法国01
-      - 巴西01
-      - 巴西02
-      - Traffic Reset：7 Days Left
-      - 香港核心 IEPL 03
-      - 香港核心 IEPL 05
-      - Japan Native 01
-      - Japan Native 03
-      - Unlock services 01
-      - Unlock services 03
-      - Unlock services 05
-      - Unlock services 07
-      - Unlock services 09 
+      - 去除14条不合适线路
+      - G美国-免费
+      - A 韩国
+      - B 韩国
+      - C韩国
+      - 金正恩家宽
+      - 南极洲
+      - 距离下次重置剩余：6 天
+      - 新加坡1 AWSHK移动优化入口
+      - 新加坡2 AWSHK移动优化入口
+      - 新加坡3 AZHK边缘优化入口
+      - 新加坡4 AZHK边缘优化入口
+      - 新加坡5 AZSG电信优化入口
+      - 新加坡6 AZSG电信优化入口
+      - 新加坡7 AZJP三网优化入口
+      - 新加坡8 AZJP三网优化入口
+      - 日本1 AZJP三网优化入口
+      - 日本2 AZJP三网优化入口
+      - 日本3 AWSHK移动优化入口
+      - 日本4 AWSHK移动优化入口
+      - 日本5 AZHK边缘优化入口
+      - 日本6 AZHK边缘优化入口
+      - 日本7 AZSG电信优化入口
+      - 日本8 AZSG电信优化入口
+      - 美国1 AZJP三网优化入口
+      - 美国2 AZJP三网优化入口
+      - 美国3 AWSHK移动优化入口
+      - 美国4 AWSHK移动优化入口
+      - 美国5 AZHK边缘优化入口
+      - 美国6 AZHK边缘优化入口
+      - 美国7 AZSG电信优化入口
+      - 美国8 AZSG电信优化入口
+      - 日本>直连 2
+      - 日本>>直连 2
+      - 韩国>直连 2
+      - 韩国>>直连 2
+      - 新加坡 直连 2
+      - 新加坡>直连 2
+      - 距离下次重置剩余：22 天
+      - 火星互联公益节点01
+      - 火星互联公益节点02
+      - 火星互联公益节点03
+      - 火星互联 电报群 @https://t.me/marsix1
+      - 火星互联 通知 @https://t.me/marsix2
+      - 火星互联 https://ss.marsix.xyz
+      - 火星互联 注册免费使用
+      - 动态无墙 http://172.104.185.169:9443/
   - name: 🌏 爱奇艺&哔哩哔哩
     type: select
     proxies:
