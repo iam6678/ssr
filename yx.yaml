@@ -45,42 +45,38 @@ proxies:
   - {name: 🇯🇵 G4-Ver.5, server: jp04-alt-vm0.entry.srthdw.art, port: 446, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 G5-Ver.6, server: jp05-vm0.entry.srthdw.art, port: 46484, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 G6-Ver.5, server: jp06-vm0.entry.jpojpoh.art, port: 28785, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 日本>直连, server: 168.138.41.87, port: 20800, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
-  - {name: 日本>>直连, server: jpdb2.ip8.shop, port: 63850, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
-  - {name: 韩国>直连, server: krse4.ip8.shop, port: 20350, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
-  - {name: 韩国>>直连, server: krse11.ip8.shop, port: 21400, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
-  - {name: 新加坡 直连, server: sg6.ip8.shop, port: 20549, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
-  - {name: 新加坡>直连, server: sg6.ip8.shop, port: 20550, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
-  - {name: 新加坡01, server: sg3.doushimeng.com, port: 20053, type: ss, cipher: chacha20-ietf-poly1305, password: 8737165c-9942-49f9-8b9b-94b8217c36c5, udp: true}
-  - {name: 日本01, server: jp.doushimeng.com, port: 21853, type: ss, cipher: chacha20-ietf-poly1305, password: 8737165c-9942-49f9-8b9b-94b8217c36c5, udp: true}
-  - {name: 美国01, server: us4.doushimeng.com, port: 20802, type: ss, cipher: chacha20-ietf-poly1305, password: 8737165c-9942-49f9-8b9b-94b8217c36c5, udp: true}
-  - {name: 德国01, server: dl3.doushimeng.com, port: 2082, type: vmess, uuid: 8737165c-9942-49f9-8b9b-94b8217c36c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /asdas, ws-headers: {Host: cf-de9.doushimeng.com}, udp: true}
-  - {name: 去除14条不合适线路, server: 104.17.76.116, port: 80, type: vmess, uuid: 71c0ab6c-b9ef-48a9-80d2-87e5d376ae40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: usfree.1234585.xyz}, udp: true}
-  - {name: G美国-免费, server: 104.17.76.116, port: 80, type: vmess, uuid: 71c0ab6c-b9ef-48a9-80d2-87e5d376ae40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: usfree.1234585.xyz}, udp: true}
-  - {name: A 韩国, server: krse11.ip8.shop, port: 36700, type: ss, cipher: aes-256-gcm, password: 71c0ab6c-b9ef-48a9-80d2-87e5d376ae40, udp: true}
-  - {name: B 韩国, server: krse10.ip8.shop, port: 63150, type: ss, cipher: aes-128-gcm, password: 71c0ab6c-b9ef-48a9-80d2-87e5d376ae40, udp: true}
-  - {name: C韩国, server: kr-seoul-oracle-64dc93.ip8.shop, port: 54500, type: ss, cipher: aes-256-gcm, password: 71c0ab6c-b9ef-48a9-80d2-87e5d376ae40, udp: true}
-  - {name: 金正恩家宽, server: 172.64.135.137, port: 80, type: vmess, uuid: 71c0ab6c-b9ef-48a9-80d2-87e5d376ae40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kp.1234585.xyz}, udp: true}
-  - {name: 南极洲, server: 172.64.135.137, port: 80, type: vmess, uuid: 71c0ab6c-b9ef-48a9-80d2-87e5d376ae40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aq.1234585.xyz}, udp: true}
-  - { name: '剩余流量：100 GB', type: vmess, server: 209.141.52.163, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: www.apple.com } }, ws-path: /, ws-headers: { Host: www.apple.com } }
-  - { name: 套餐到期：2027-01-13, type: vmess, server: 209.141.52.163, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: www.apple.com } }, ws-path: /, ws-headers: { Host: www.apple.com } }
-  - { name: 官网-免费云.com, type: vmess, server: 209.141.52.163, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: www.apple.com } }, ws-path: /, ws-headers: { Host: www.apple.com } }
-  - { name: 免费云.com-永久免费, type: vmess, server: 209.141.52.163, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: www.apple.com } }, ws-path: /, ws-headers: { Host: www.apple.com } }
-  - { name: 🇺🇸免费节点美国1, type: vmess, server: www.csgo.com, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: nl1.mybestjj.com } }, ws-path: /, ws-headers: { Host: nl1.mybestjj.com } }
-  - { name: 🇺🇸免费节点美国2, type: vmess, server: whatismyipaddress.com, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: nl1.mybestjj.com } }, ws-path: /, ws-headers: { Host: nl1.mybestjj.com } }
-  - { name: 🇺🇸免费节点美国3, type: vmess, server: fbi.gov, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: nl1.mybestjj.com } }, ws-path: /, ws-headers: { Host: nl1.mybestjj.com } }
-  - { name: 🇺🇸免费节点美国4, type: vmess, server: www.pcmag.com, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: nl1.mybestjj.com } }, ws-path: /, ws-headers: { Host: nl1.mybestjj.com } }
-  - { name: 🇺🇸免费节点美国5, type: vmess, server: www.digitalocean.com, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: nl1.mybestjj.com } }, ws-path: /, ws-headers: { Host: nl1.mybestjj.com } }
-  - { name: 🇺🇸免费节点美国6, type: vmess, server: www.glassdoor.com, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: nl1.mybestjj.com } }, ws-path: /, ws-headers: { Host: nl1.mybestjj.com } }
-  - { name: 🇺🇸免费节点美国7, type: vmess, server: www.udemy.com, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: nl1.mybestjj.com } }, ws-path: /, ws-headers: { Host: nl1.mybestjj.com } }
-  - { name: 🇺🇸免费节点美国ipv6, type: vmess, server: '2605:6400:20:124c:983b:d3a1:3143:f286', port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: www.apple.com } }, ws-path: /, ws-headers: { Host: www.apple.com } }
-  - {name: 日本>直连 2, server: 168.138.41.87, port: 20800, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
-  - {name: 日本>>直连 2, server: jpdb2.ip8.shop, port: 63850, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
-  - {name: 韩国>直连 2, server: krse4.ip8.shop, port: 20350, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
-  - {name: 韩国>>直连 2, server: krse11.ip8.shop, port: 21400, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
-  - {name: 新加坡 直连 2, server: sg6.ip8.shop, port: 20549, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
-  - {name: 新加坡>直连 2, server: sg6.ip8.shop, port: 20550, type: ss, cipher: chacha20-ietf-poly1305, password: ef951424-9557-401a-b926-34303c54fd5a, udp: true}
-  - {name: 距离下次重置剩余：22 天, server: free-relay.m.themars.top, port: 32102, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
+  - {name: 剩余流量：100 GB, type: ss, server: zz-hk.91qaq.one, port: 29443, cipher: chacha20-ietf-poly1305, password: e6efeea9-78e4-4101-ba54-232ee514a11f, udp: true }
+  - {name: 套餐到期：2024-02-27, type: ss, server: zz-hk.91qaq.one, port: 29443, cipher: chacha20-ietf-poly1305, password: e6efeea9-78e4-4101-ba54-232ee514a11f, udp: true }
+  - {name: Hong Kong 01, type: ss, server: zz-hk.91qaq.one, port: 29443, cipher: chacha20-ietf-poly1305, password: e6efeea9-78e4-4101-ba54-232ee514a11f, udp: true }
+  - {name: Hong Kong 02, type: ss, server: zz-hk.91qaq.one, port: 29480, cipher: chacha20-ietf-poly1305, password: e6efeea9-78e4-4101-ba54-232ee514a11f, udp: true }
+  - {name: Hong Kong 03, type: trojan, server: zz-hk.91qaq.one, port: 24053, password: e6efeea9-78e4-4101-ba54-232ee514a11f, udp: true, sni: zz-hk.91qaq.one }
+  - {name: Hong Kong 04, type: vmess, server: zz-hk.91qaq.one, port: 14733, uuid: e6efeea9-78e4-4101-ba54-232ee514a11f, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /juziyun, headers: { Host: www.bing.com } }, ws-path: /juziyun, ws-headers: { Host: www.bing.com } }
+  - {name: Hong Kong 05, type: vmess, server: zz-hk.91qaq.one, port: 13864, uuid: e6efeea9-78e4-4101-ba54-232ee514a11f, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /juziyun, headers: { Host: www.bing.com } }, ws-path: /juziyun, ws-headers: { Host: www.bing.com } }
+  - {name: Hong Kong 06, type: ss, server: zz-hk.91qaq.one, port: 11449, cipher: chacha20-ietf-poly1305, password: e6efeea9-78e4-4101-ba54-232ee514a11f, udp: true }
+  - {name: Hong Kong 07, type: trojan, server: zz-hk.91qaq.one, port: 18809, password: e6efeea9-78e4-4101-ba54-232ee514a11f, udp: true, sni: zz-hk.91qaq.one }
+  - {name: Hong Kong 08, type: vmess, server: zz-hk.91qaq.one, port: 20909, uuid: e6efeea9-78e4-4101-ba54-232ee514a11f, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /juziyun, headers: { Host: www.bing.com } }, ws-path: /juziyun, ws-headers: { Host: www.bing.com } }
+  - {name: Taiwan 01, type: vmess, server: zz-tw.91qaq.one, port: 37966, uuid: e6efeea9-78e4-4101-ba54-232ee514a11f, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /juziyun, headers: { Host: www.bing.com } }, ws-path: /juziyun, ws-headers: { Host: www.bing.com } }
+  - {name: Taiwan 02, type: vmess, server: zz-tw.91qaq.one, port: 19524, uuid: e6efeea9-78e4-4101-ba54-232ee514a11f, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /juziyun, headers: { Host: www.bing.com } }, ws-path: /juziyun, ws-headers: { Host: www.bing.com } }
+  - {name: Taiwan 03, type: ss, server: zz-tw.91qaq.one, port: 37218, cipher: chacha20-ietf-poly1305, password: e6efeea9-78e4-4101-ba54-232ee514a11f, udp: true }
+  - {name: Singapore 01, type: vmess, server: zz-sg.91qaq.one, port: 32113, uuid: e6efeea9-78e4-4101-ba54-232ee514a11f, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /juziyun, headers: { Host: www.bing.com } }, ws-path: /juziyun, ws-headers: { Host: www.bing.com } }
+  - {name: Singapore 02, type: vmess, server: zz-sg.91qaq.one, port: 42285, uuid: e6efeea9-78e4-4101-ba54-232ee514a11f, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /juziyun, headers: { Host: www.bing.com } }, ws-path: /juziyun, ws-headers: { Host: www.bing.com } }
+  - {name: Singapore 03, type: vmess, server: zz-sg.91qaq.one, port: 44929, uuid: e6efeea9-78e4-4101-ba54-232ee514a11f, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /juziyun, headers: { Host: www.bing.com } }, ws-path: /juziyun, ws-headers: { Host: www.bing.com } }
+  - {name: Singapore 04, type: trojan, server: zz-sg.91qaq.one, port: 21916, password: e6efeea9-78e4-4101-ba54-232ee514a11f, udp: true, sni: zz-sg.91qaq.one }
+  - {name: Singapore 06, type: trojan, server: zz-sg.91qaq.one, port: 15743, password: e6efeea9-78e4-4101-ba54-232ee514a11f, udp: true, sni: zz-sg.91qaq.one }
+  - {name: Singapore 05, type: ss, server: zz-sg.91qaq.one, port: 29827, cipher: chacha20-ietf-poly1305, password: e6efeea9-78e4-4101-ba54-232ee514a11f, udp: true }
+  - {name: Singapore 07, type: ss, server: zz-sg.91qaq.one, port: 49090, cipher: chacha20-ietf-poly1305, password: e6efeea9-78e4-4101-ba54-232ee514a11f, udp: true }
+  - {name: Japan 01, type: ss, server: zz-jp.91qaq.one, port: 24663, cipher: chacha20-ietf-poly1305, password: e6efeea9-78e4-4101-ba54-232ee514a11f, udp: true }
+  - {name: Japan 02, type: trojan, server: zz-jp.91qaq.one, port: 32161, password: e6efeea9-78e4-4101-ba54-232ee514a11f, udp: true, sni: zz-jp.91qaq.one }
+  - {name: Japan 03, type: vmess, server: zz-jp.91qaq.one, port: 39332, uuid: e6efeea9-78e4-4101-ba54-232ee514a11f, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /juziyun, headers: { Host: www.bing.com } }, ws-path: /juziyun, ws-headers: { Host: www.bing.com } }
+  - {name: Japan 04, type: ss, server: zz-jp.91qaq.one, port: 20234, cipher: chacha20-ietf-poly1305, password: e6efeea9-78e4-4101-ba54-232ee514a11f, udp: true }
+  - {name: USA 01, type: vmess, server: zz-us.91qaq.one, port: 41865, uuid: e6efeea9-78e4-4101-ba54-232ee514a11f, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /juziyun, headers: { Host: www.bing.com } }, ws-path: /juziyun, ws-headers: { Host: www.bing.com } }
+  - {name: USA  02, type: vmess, server: zz-us.91qaq.one, port: 28668, uuid: e6efeea9-78e4-4101-ba54-232ee514a11f, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /juziyun, headers: { Host: www.bing.com } }, ws-path: /juziyun, ws-headers: { Host: www.bing.com } }
+  - {name: USA  03, type: vmess, server: zz-us.91qaq.one, port: 28991, uuid: e6efeea9-78e4-4101-ba54-232ee514a11f, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /juziyun, headers: { Host: www.bing.com } }, ws-path: /juziyun, ws-headers: { Host: www.bing.com } }
+  - {name: USA  04, type: vmess, server: zz-us.91qaq.one, port: 43412, uuid: e6efeea9-78e4-4101-ba54-232ee514a11f, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /juziyun, headers: { Host: www.bing.com } }, ws-path: /juziyun, ws-headers: { Host: www.bing.com } }
+  - {name: USA 05, type: ss, server: zz-us.91qaq.one, port: 21546, cipher: chacha20-ietf-poly1305, password: e6efeea9-78e4-4101-ba54-232ee514a11f, udp: true }
+  - {name: UK 01, type: ss, server: zz-uk.91qaq.one, port: 12150, cipher: chacha20-ietf-poly1305, password: e6efeea9-78e4-4101-ba54-232ee514a11f, udp: true }
+  - {name: Russia 01, type: vmess, server: zz-ru.91qaq.one, port: 13918, uuid: e6efeea9-78e4-4101-ba54-232ee514a11f, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /juziyun, headers: { Host: www.bing.com } }, ws-path: /juziyun, ws-headers: { Host: www.bing.com } }
+  - {name: Turkey 01, type: ss, server: zz-tur.91qaq.one, port: 35354, cipher: chacha20-ietf-poly1305, password: e6efeea9-78e4-4101-ba54-232ee514a11f, udp: true }
   - {name: 火星互联公益节点01, server: free-relay.m.themars.top, port: 32102, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
   - {name: 火星互联公益节点02, server: free-relay.m.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
   - {name: 火星互联公益节点03, server: free-relay.m.themars.top, port: 32104, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
@@ -127,42 +123,36 @@ proxy-groups:
       - 🇯🇵 G4-Ver.5
       - 🇯🇵 G5-Ver.6
       - 🇯🇵 G6-Ver.5
-      - 日本>直连
-      - 日本>>直连
-      - 韩国>直连
-      - 韩国>>直连
-      - 新加坡 直连
-      - 新加坡>直连
-      - 新加坡01
-      - 日本01
-      - 美国01
-      - 德国01
-      - 去除14条不合适线路
-      - G美国-免费
-      - A 韩国
-      - B 韩国
-      - C韩国
-      - 金正恩家宽
-      - 南极洲
-      - '剩余流量：100 GB'
-      - 套餐到期：2027-01-13
-      - 官网-免费云.com
-      - 免费云.com-永久免费
-      - 🇺🇸免费节点美国1
-      - 🇺🇸免费节点美国2
-      - 🇺🇸免费节点美国3
-      - 🇺🇸免费节点美国4
-      - 🇺🇸免费节点美国5
-      - 🇺🇸免费节点美国6
-      - 🇺🇸免费节点美国7
-      - 🇺🇸免费节点美国ipv6
-      - 日本>直连 2
-      - 日本>>直连 2
-      - 韩国>直连 2
-      - 韩国>>直连 2
-      - 新加坡 直连 2
-      - 新加坡>直连 2
-      - 距离下次重置剩余：22 天
+      - Hong Kong 01
+      - Hong Kong 02
+      - Hong Kong 03
+      - Hong Kong 04
+      - Hong Kong 05
+      - Hong Kong 06
+      - Hong Kong 07
+      - Hong Kong 08
+      - Taiwan 01
+      - Taiwan 02
+      - Taiwan 03
+      - Singapore 01
+      - Singapore 02
+      - Singapore 03
+      - Singapore 04
+      - Singapore 06
+      - Singapore 05
+      - Singapore 07
+      - Japan 01
+      - Japan 02
+      - Japan 03
+      - Japan 04
+      - USA 01
+      - USA  02
+      - USA  03
+      - USA  04
+      - USA 05
+      - UK 01
+      - Russia 01
+      - Turkey 01
       - 火星互联公益节点01
       - 火星互联公益节点02
       - 火星互联公益节点03
@@ -190,42 +180,36 @@ proxy-groups:
       - 🇯🇵 G4-Ver.5
       - 🇯🇵 G5-Ver.6
       - 🇯🇵 G6-Ver.5
-      - 日本>直连
-      - 日本>>直连
-      - 韩国>直连
-      - 韩国>>直连
-      - 新加坡 直连
-      - 新加坡>直连
-      - 新加坡01
-      - 日本01
-      - 美国01
-      - 德国01
-      - 去除14条不合适线路
-      - G美国-免费
-      - A 韩国
-      - B 韩国
-      - C韩国
-      - 金正恩家宽
-      - 南极洲
-      - '剩余流量：100 GB'
-      - 套餐到期：2027-01-13
-      - 官网-免费云.com
-      - 免费云.com-永久免费
-      - 🇺🇸免费节点美国1
-      - 🇺🇸免费节点美国2
-      - 🇺🇸免费节点美国3
-      - 🇺🇸免费节点美国4
-      - 🇺🇸免费节点美国5
-      - 🇺🇸免费节点美国6
-      - 🇺🇸免费节点美国7
-      - 🇺🇸免费节点美国ipv6
-      - 日本>直连 2
-      - 日本>>直连 2
-      - 韩国>直连 2
-      - 韩国>>直连 2
-      - 新加坡 直连 2
-      - 新加坡>直连 2
-      - 距离下次重置剩余：22 天
+      - Hong Kong 01
+      - Hong Kong 02
+      - Hong Kong 03
+      - Hong Kong 04
+      - Hong Kong 05
+      - Hong Kong 06
+      - Hong Kong 07
+      - Hong Kong 08
+      - Taiwan 01
+      - Taiwan 02
+      - Taiwan 03
+      - Singapore 01
+      - Singapore 02
+      - Singapore 03
+      - Singapore 04
+      - Singapore 06
+      - Singapore 05
+      - Singapore 07
+      - Japan 01
+      - Japan 02
+      - Japan 03
+      - Japan 04
+      - USA 01
+      - USA  02
+      - USA  03
+      - USA  04
+      - USA 05
+      - UK 01
+      - Russia 01
+      - Turkey 01
       - 火星互联公益节点01
       - 火星互联公益节点02
       - 火星互联公益节点03
@@ -253,42 +237,36 @@ proxy-groups:
       - 🇯🇵 G4-Ver.5
       - 🇯🇵 G5-Ver.6
       - 🇯🇵 G6-Ver.5
-      - 日本>直连
-      - 日本>>直连
-      - 韩国>直连
-      - 韩国>>直连
-      - 新加坡 直连
-      - 新加坡>直连
-      - 新加坡01
-      - 日本01
-      - 美国01
-      - 德国01
-      - 去除14条不合适线路
-      - G美国-免费
-      - A 韩国
-      - B 韩国
-      - C韩国
-      - 金正恩家宽
-      - 南极洲
-      - '剩余流量：100 GB'
-      - 套餐到期：2027-01-13
-      - 官网-免费云.com
-      - 免费云.com-永久免费
-      - 🇺🇸免费节点美国1
-      - 🇺🇸免费节点美国2
-      - 🇺🇸免费节点美国3
-      - 🇺🇸免费节点美国4
-      - 🇺🇸免费节点美国5
-      - 🇺🇸免费节点美国6
-      - 🇺🇸免费节点美国7
-      - 🇺🇸免费节点美国ipv6
-      - 日本>直连 2
-      - 日本>>直连 2
-      - 韩国>直连 2
-      - 韩国>>直连 2
-      - 新加坡 直连 2
-      - 新加坡>直连 2
-      - 距离下次重置剩余：22 天
+      - Hong Kong 01
+      - Hong Kong 02
+      - Hong Kong 03
+      - Hong Kong 04
+      - Hong Kong 05
+      - Hong Kong 06
+      - Hong Kong 07
+      - Hong Kong 08
+      - Taiwan 01
+      - Taiwan 02
+      - Taiwan 03
+      - Singapore 01
+      - Singapore 02
+      - Singapore 03
+      - Singapore 04
+      - Singapore 06
+      - Singapore 05
+      - Singapore 07
+      - Japan 01
+      - Japan 02
+      - Japan 03
+      - Japan 04
+      - USA 01
+      - USA  02
+      - USA  03
+      - USA  04
+      - USA 05
+      - UK 01
+      - Russia 01
+      - Turkey 01
       - 火星互联公益节点01
       - 火星互联公益节点02
       - 火星互联公益节点03
