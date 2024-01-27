@@ -86,6 +86,18 @@ proxies:
   - {name: 火星互联 注册免费使用, server: free-relay.m.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
   - {name: 动态无墙 http://172.104.185.169:9443/, server: free-relay.m.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
   - {name: 美国 <梦境> VMess, server: usfree.369.pics, port: 63552, type: vmess, uuid: a32b6a53-577a-3570-af88-8603d643ce45, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: bilibili.com}, udp: true}
+  - {name: 剩余流量100 GB, type: vmess, server: 209.141.52.163, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: www.apple.com } }, ws-path: /, ws-headers: { Host: www.apple.com } }
+  - {name: 套餐到期：2027-01-13, type: vmess, server: 209.141.52.163, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: www.apple.com } }, ws-path: /, ws-headers: { Host: www.apple.com } }
+  - {name: 官网-免费云.com, type: vmess, server: 209.141.52.163, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: www.apple.com } }, ws-path: /, ws-headers: { Host: www.apple.com } }
+  - {name: 免费云.com-永久免费, type: vmess, server: 209.141.52.163, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: www.apple.com } }, ws-path: /, ws-headers: { Host: www.apple.com } }
+  - {name: 🇺🇸免费节点美国1, type: vmess, server: www.csgo.com, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: nl1.mybestjj.com } }, ws-path: /, ws-headers: { Host: nl1.mybestjj.com } }
+  - {name: 🇺🇸免费节点美国2, type: vmess, server: whatismyipaddress.com, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: nl1.mybestjj.com } }, ws-path: /, ws-headers: { Host: nl1.mybestjj.com } }
+  - {name: 🇺🇸免费节点美国3, type: vmess, server: fbi.gov, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: nl1.mybestjj.com } }, ws-path: /, ws-headers: { Host: nl1.mybestjj.com } }
+  - {name: 🇺🇸免费节点美国4, type: vmess, server: www.pcmag.com, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: nl1.mybestjj.com } }, ws-path: /, ws-headers: { Host: nl1.mybestjj.com } }
+  - {name: 🇺🇸免费节点美国5, type: vmess, server: www.digitalocean.com, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: nl1.mybestjj.com } }, ws-path: /, ws-headers: { Host: nl1.mybestjj.com } }
+  - {name: 🇺🇸免费节点美国6, type: vmess, server: www.glassdoor.com, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: nl1.mybestjj.com } }, ws-path: /, ws-headers: { Host: nl1.mybestjj.com } }
+  - {name: 🇺🇸免费节点美国7, type: vmess, server: www.udemy.com, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: nl1.mybestjj.com } }, ws-path: /, ws-headers: { Host: nl1.mybestjj.com } }
+  - {name: 🇺🇸免费节点美国ipv6, type: vmess, server: '2605:6400:20:124c:983b:d3a1:3143:f286', port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: www.apple.com } }, ws-path: /, ws-headers: { Host: www.apple.com } }
 proxy-groups:
   - name: 🔰 选择节点
     type: select
@@ -162,6 +174,18 @@ proxy-groups:
       - 火星互联 注册免费使用
       - 动态无墙 http://172.104.185.169:9443/
       - 美国 <梦境> VMess
+      - 剩余流量100 GB
+      - 套餐到期：2027-01-13
+      - 官网-免费云.com
+      - 免费云.com-永久免费
+      - 🇺🇸免费节点美国1
+      - 🇺🇸免费节点美国2
+      - 🇺🇸免费节点美国3
+      - 🇺🇸免费节点美国4
+      - 🇺🇸免费节点美国5
+      - 🇺🇸免费节点美国6
+      - 🇺🇸免费节点美国7
+      - 🇺🇸免费节点美国ipv6
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
