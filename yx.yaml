@@ -98,6 +98,15 @@ proxies:
   - {name: 🇺🇸免费节点美国6, type: vmess, server: www.glassdoor.com, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: nl1.mybestjj.com } }, ws-path: /, ws-headers: { Host: nl1.mybestjj.com } }
   - {name: 🇺🇸免费节点美国7, type: vmess, server: www.udemy.com, port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: nl1.mybestjj.com } }, ws-path: /, ws-headers: { Host: nl1.mybestjj.com } }
   - {name: 🇺🇸免费节点美国ipv6, type: vmess, server: '2605:6400:20:124c:983b:d3a1:3143:f286', port: 80, uuid: 7941a9a4-a84d-43f0-857e-775fe6a1f6fb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: www.apple.com } }, ws-path: /, ws-headers: { Host: www.apple.com } }
+  - { name: '剩余流量：100 GB', type: trojan, server: jp01.bsawc.shop, port: 20602, password: b233c716-17dd-41f8-bc6b-e35806561e85, udp: true, sni: jp01.bsawc.shop }
+  - { name: 套餐到期：2024-03-16, type: trojan, server: jp01.bsawc.shop, port: 20602, password: b233c716-17dd-41f8-bc6b-e35806561e85, udp: true, sni: jp01.bsawc.shop }
+  - { name: 'Japan 01', type: trojan, server: jp01.bsawc.shop, port: 20602, password: b233c716-17dd-41f8-bc6b-e35806561e85, udp: true, sni: jp01.bsawc.shop }
+  - { name: 'Korea 01', type: trojan, server: kr01.bsawc.shop, port: 61302, password: b233c716-17dd-41f8-bc6b-e35806561e85, udp: true, sni: kr01.bsawc.shop }
+  - { name: 'Singapore 02', type: trojan, server: sg02.bsawc.shop, port: 51652, password: b233c716-17dd-41f8-bc6b-e35806561e85, udp: true, sni: sg02.bsawc.shop }
+  - { name: 'Canada 01', type: trojan, server: ca01.bsawc.shop, port: 27352, password: b233c716-17dd-41f8-bc6b-e35806561e85, udp: true, sni: ca01.bsawc.shop }
+  - { name: 'Russia CN2 01', type: trojan, server: ru01.bsawc.shop, port: 30005, password: b233c716-17dd-41f8-bc6b-e35806561e85, udp: true, sni: ru01.bsawc.shop }
+  - { name: 'Dubai 01', type: trojan, server: ua01.bsawc.shop, port: 37902, password: b233c716-17dd-41f8-bc6b-e35806561e85, udp: true, sni: ua01.bsawc.shop }
+  - { name: 'Netherlands 01', type: trojan, server: nl01.bsawc.shop, port: 64302, password: b233c716-17dd-41f8-bc6b-e35806561e85, udp: true, sni: nl01.bsawc.shop }
 proxy-groups:
   - name: 🔰 选择节点
     type: select
@@ -168,6 +177,15 @@ proxy-groups:
       - 🇺🇸免费节点美国6
       - 🇺🇸免费节点美国7
       - 🇺🇸免费节点美国ipv6
+      - 剩余流量：100 GB
+      - 套餐到期：2024-03-16
+      - Japan 01
+      - Korea 01
+      - Singapore 02
+      - Canada 01
+      - Russia CN2 01
+      - Dubai 01
+      - Netherlands 01
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
@@ -237,6 +255,15 @@ proxy-groups:
       - 🇺🇸免费节点美国6
       - 🇺🇸免费节点美国7
       - 🇺🇸免费节点美国ipv6
+      - 剩余流量：100 GB
+      - 套餐到期：2024-03-16
+      - Japan 01
+      - Korea 01
+      - Singapore 02
+      - Canada 01
+      - Russia CN2 01
+      - Dubai 01
+      - Netherlands 01
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
@@ -294,6 +321,15 @@ proxy-groups:
       - 火星互联 注册免费使用
       - 动态无墙 http://172.104.185.169:9443/
       - 美国 <梦境> VMess
+      - 剩余流量：100 GB
+      - 套餐到期：2024-03-16
+      - Japan 01
+      - Korea 01
+      - Singapore 02
+      - Canada 01
+      - Russia CN2 01
+      - Dubai 01
+      - Netherlands 01
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
@@ -351,6 +387,15 @@ proxy-groups:
       - 火星互联 注册免费使用
       - 动态无墙 http://172.104.185.169:9443/
       - 美国 <梦境> VMess
+      - 剩余流量：100 GB
+      - 套餐到期：2024-03-16
+      - Japan 01
+      - Korea 01
+      - Singapore 02
+      - Canada 01
+      - Russia CN2 01
+      - Dubai 01
+      - Netherlands 01
   - name: 🌏 爱奇艺&哔哩哔哩
     type: select
     proxies:
