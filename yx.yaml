@@ -45,6 +45,18 @@ proxies:
   - {name: 🇯🇵 G4-Ver.5, server: 15ul7-g03.jp04-3771-vm0.entry.fr0307a.art, port: 446, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 G5-Ver.6, server: jp8dq-g03.jp05-6786-vm0.entry.fr0307a.art, port: 46484, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 G6-Ver.5, server: ydqu7-g03.jp06-7c5a-vm0.entry.fr0307a.art, port: 28785, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 HH1-Ver.6, server: 641b9-g06.jp01-0986-vm0.entry.fr0307a.art, port: 21586, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 HH2-Ver.7, server: s9m74-g06.jp02-9a99-vm0.entry.fr0307a.art, port: 11778, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 HH3-Ver.6, server: wlpqe-g06.jp03-7d22-vm0.entry.fr0307a.art, port: 21586, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 HH4-Ver.7, server: 4vvh3-g06.jp04-3771-vm0.entry.fr0307a.art, port: 449, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 HH5-Ver.8, server: 67z5f-g06.jp05-6786-vm0.entry.fr0307a.art, port: 46487, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 HH6-Ver.7, server: mzv8o-g06.jp06-7c5a-vm0.entry.fr0307a.art, port: 28788, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 GG1-Ver.6, server: b83nt-g03.jp01-0986-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 GG2-Ver.7, server: g95s3-g03.jp02-9a99-vm0.entry.fr0307a.art, port: 11775, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 GG3-Ver.6, server: pj8mt-g03.jp03-7d22-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 GG4-Ver.7, server: yfuda-g03.jp04-3771-vm0.entry.fr0307a.art, port: 446, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 GG5-Ver.8, server: vjvwp-g03.jp05-6786-vm0.entry.fr0307a.art, port: 46484, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 GG6-Ver.7, server: p2awl-g03.jp06-7c5a-vm0.entry.fr0307a.art, port: 28785, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
   - {name: 剩余流量：100 GB, type: ss, server: zz-hk.91qaq.one, port: 29443, cipher: chacha20-ietf-poly1305, password: e6efeea9-78e4-4101-ba54-232ee514a11f, udp: true }
   - {name: 套餐到期：2024-02-27, type: ss, server: zz-hk.91qaq.one, port: 29443, cipher: chacha20-ietf-poly1305, password: e6efeea9-78e4-4101-ba54-232ee514a11f, udp: true }
   - {name: Hong Kong 01, type: ss, server: zz-hk.91qaq.one, port: 29443, cipher: chacha20-ietf-poly1305, password: e6efeea9-78e4-4101-ba54-232ee514a11f, udp: true }
@@ -126,6 +138,18 @@ proxy-groups:
       - 🇯🇵 G4-Ver.5
       - 🇯🇵 G5-Ver.6
       - 🇯🇵 G6-Ver.5
+      - 🇯🇵 HH1-Ver.6
+      - 🇯🇵 HH2-Ver.7
+      - 🇯🇵 HH3-Ver.6
+      - 🇯🇵 HH4-Ver.7
+      - 🇯🇵 HH5-Ver.8
+      - 🇯🇵 HH6-Ver.7
+      - 🇯🇵 GG1-Ver.6
+      - 🇯🇵 GG2-Ver.7
+      - 🇯🇵 GG3-Ver.6
+      - 🇯🇵 GG4-Ver.7
+      - 🇯🇵 GG5-Ver.8
+      - 🇯🇵 GG6-Ver.7
       - Hong Kong 01
       - Hong Kong 02
       - Hong Kong 03
@@ -204,6 +228,18 @@ proxy-groups:
       - 🇯🇵 G4-Ver.5
       - 🇯🇵 G5-Ver.6
       - 🇯🇵 G6-Ver.5
+      - 🇯🇵 HH1-Ver.6
+      - 🇯🇵 HH2-Ver.7
+      - 🇯🇵 HH3-Ver.6
+      - 🇯🇵 HH4-Ver.7
+      - 🇯🇵 HH5-Ver.8
+      - 🇯🇵 HH6-Ver.7
+      - 🇯🇵 GG1-Ver.6
+      - 🇯🇵 GG2-Ver.7
+      - 🇯🇵 GG3-Ver.6
+      - 🇯🇵 GG4-Ver.7
+      - 🇯🇵 GG5-Ver.8
+      - 🇯🇵 GG6-Ver.7
       - Hong Kong 01
       - Hong Kong 02
       - Hong Kong 03
@@ -282,6 +318,18 @@ proxy-groups:
       - 🇯🇵 G4-Ver.5
       - 🇯🇵 G5-Ver.6
       - 🇯🇵 G6-Ver.5
+      - 🇯🇵 HH1-Ver.6
+      - 🇯🇵 HH2-Ver.7
+      - 🇯🇵 HH3-Ver.6
+      - 🇯🇵 HH4-Ver.7
+      - 🇯🇵 HH5-Ver.8
+      - 🇯🇵 HH6-Ver.7
+      - 🇯🇵 GG1-Ver.6
+      - 🇯🇵 GG2-Ver.7
+      - 🇯🇵 GG3-Ver.6
+      - 🇯🇵 GG4-Ver.7
+      - 🇯🇵 GG5-Ver.8
+      - 🇯🇵 GG6-Ver.7
       - Hong Kong 01
       - Hong Kong 02
       - Hong Kong 03
@@ -348,6 +396,18 @@ proxy-groups:
       - 🇯🇵 G4-Ver.5
       - 🇯🇵 G5-Ver.6
       - 🇯🇵 G6-Ver.5
+      - 🇯🇵 HH1-Ver.6
+      - 🇯🇵 HH2-Ver.7
+      - 🇯🇵 HH3-Ver.6
+      - 🇯🇵 HH4-Ver.7
+      - 🇯🇵 HH5-Ver.8
+      - 🇯🇵 HH6-Ver.7
+      - 🇯🇵 GG1-Ver.6
+      - 🇯🇵 GG2-Ver.7
+      - 🇯🇵 GG3-Ver.6
+      - 🇯🇵 GG4-Ver.7
+      - 🇯🇵 GG5-Ver.8
+      - 🇯🇵 GG6-Ver.7
       - Hong Kong 01
       - Hong Kong 02
       - Hong Kong 03
