@@ -69,6 +69,18 @@ proxies:
   - {name: 🇯🇵 HHH4-Ver.7, server: xasvv-g06.jp04-3771-vm0.entry.fr0307a.art, port: 449, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 HHH5-Ver.8, server: 2ycu9-g06.jp05-6786-vm0.entry.fr0307a.art, port: 46487, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 HHH6-Ver.7, server: 6ytlw-g06.jp06-7c5a-vm0.entry.fr0307a.art, port: 28788, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 GGGG1-Ver.6, server: 69ckp-g03.jp01-0986-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 GGGG2-Ver.7, server: fvvhw-g03.jp02-9a99-vm0.entry.fr0307a.art, port: 11775, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 GGGG3-Ver.6, server: on88w-g03.jp03-7d22-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 GGGG4-Ver.7, server: gz7wr-g03.jp04-3771-vm0.entry.fr0307a.art, port: 446, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 GGGG5-Ver.8, server: bk13o-g03.jp05-6786-vm0.entry.fr0307a.art, port: 46484, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 GGGG6-Ver.7, server: urwnw-g03.jp06-7c5a-vm0.entry.fr0307a.art, port: 28785, type: vmess, uuid: 4fa91faf-8e12-3256-ac96-0d3bf7d5a85c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 HHHH1-Ver.6, server: sv3lo-g06.jp01-0986-vm0.entry.fr0307a.art, port: 21586, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 HHHH2-Ver.7, server: ev0rh-g06.jp02-9a99-vm0.entry.fr0307a.art, port: 11778, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 HHHH3-Ver.6, server: x37bn-g06.jp03-7d22-vm0.entry.fr0307a.art, port: 21586, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 HHHH4-Ver.7, server: 9i9ur-g06.jp04-3771-vm0.entry.fr0307a.art, port: 449, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 HHHH5-Ver.8, server: 1u4ty-g06.jp05-6786-vm0.entry.fr0307a.art, port: 46487, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 HHHH6-Ver.7, server: rbodg-g06.jp06-7c5a-vm0.entry.fr0307a.art, port: 28788, type: vmess, uuid: 1328394d-5190-3349-8b1c-29d21cf9c8e7, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
   - {name: 火星互联公益节点01, server: free-relay.m.themars.top, port: 32102, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
   - {name: 火星互联公益节点02, server: free-relay.m.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
   - {name: 火星互联公益节点03, server: free-relay.m.themars.top, port: 32104, type: ss, cipher: chacha20-ietf-poly1305, password: 72edd3fb-cc05-4615-b8e8-383de1935dd3, udp: true}
@@ -132,6 +144,18 @@ proxy-groups:
       - 🇯🇵 HHH4-Ver.7
       - 🇯🇵 HHH5-Ver.8
       - 🇯🇵 HHH6-Ver.7
+      - 🇯🇵 GGGG1-Ver.6
+      - 🇯🇵 GGGG2-Ver.7
+      - 🇯🇵 GGGG3-Ver.6
+      - 🇯🇵 GGGG4-Ver.7
+      - 🇯🇵 GGGG5-Ver.8
+      - 🇯🇵 GGGG6-Ver.7
+      - 🇯🇵 HHHH1-Ver.6
+      - 🇯🇵 HHHH2-Ver.7
+      - 🇯🇵 HHHH3-Ver.6
+      - 🇯🇵 HHHH4-Ver.7
+      - 🇯🇵 HHHH5-Ver.8
+      - 🇯🇵 HHHH6-Ver.7
       - 火星互联公益节点01
       - 火星互联公益节点02
       - 火星互联公益节点03
@@ -194,6 +218,18 @@ proxy-groups:
       - 🇯🇵 HHH4-Ver.7
       - 🇯🇵 HHH5-Ver.8
       - 🇯🇵 HHH6-Ver.7
+      - 🇯🇵 GGGG1-Ver.6
+      - 🇯🇵 GGGG2-Ver.7
+      - 🇯🇵 GGGG3-Ver.6
+      - 🇯🇵 GGGG4-Ver.7
+      - 🇯🇵 GGGG5-Ver.8
+      - 🇯🇵 GGGG6-Ver.7
+      - 🇯🇵 HHHH1-Ver.6
+      - 🇯🇵 HHHH2-Ver.7
+      - 🇯🇵 HHHH3-Ver.6
+      - 🇯🇵 HHHH4-Ver.7
+      - 🇯🇵 HHHH5-Ver.8
+      - 🇯🇵 HHHH6-Ver.7
       - 火星互联公益节点01
       - 火星互联公益节点02
       - 火星互联公益节点03
@@ -256,6 +292,18 @@ proxy-groups:
       - 🇯🇵 HHH4-Ver.7
       - 🇯🇵 HHH5-Ver.8
       - 🇯🇵 HHH6-Ver.7
+      - 🇯🇵 GGGG1-Ver.6
+      - 🇯🇵 GGGG2-Ver.7
+      - 🇯🇵 GGGG3-Ver.6
+      - 🇯🇵 GGGG4-Ver.7
+      - 🇯🇵 GGGG5-Ver.8
+      - 🇯🇵 GGGG6-Ver.7
+      - 🇯🇵 HHHH1-Ver.6
+      - 🇯🇵 HHHH2-Ver.7
+      - 🇯🇵 HHHH3-Ver.6
+      - 🇯🇵 HHHH4-Ver.7
+      - 🇯🇵 HHHH5-Ver.8
+      - 🇯🇵 HHHH6-Ver.7
       - 火星互联公益节点01
       - 火星互联公益节点02
       - 火星互联公益节点03
@@ -305,6 +353,18 @@ proxy-groups:
       - 🇯🇵 HHH4-Ver.7
       - 🇯🇵 HHH5-Ver.8
       - 🇯🇵 HHH6-Ver.7
+      - 🇯🇵 GGGG1-Ver.6
+      - 🇯🇵 GGGG2-Ver.7
+      - 🇯🇵 GGGG3-Ver.6
+      - 🇯🇵 GGGG4-Ver.7
+      - 🇯🇵 GGGG5-Ver.8
+      - 🇯🇵 GGGG6-Ver.7
+      - 🇯🇵 HHHH1-Ver.6
+      - 🇯🇵 HHHH2-Ver.7
+      - 🇯🇵 HHHH3-Ver.6
+      - 🇯🇵 HHHH4-Ver.7
+      - 🇯🇵 HHHH5-Ver.8
+      - 🇯🇵 HHHH6-Ver.7
       - 火星互联公益节点01
       - 火星互联公益节点02
       - 火星互联公益节点03
