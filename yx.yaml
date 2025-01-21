@@ -15,6 +15,7 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
+    
     - { name: '剩余流量：500 GB', server: meiyou-hk.jiumaojiu.org,  port: 20502, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 20501-20599, type: hysteria2, password: c147b073-03b8-486b-815f-4e08104e0002 }
     - { name: '距离下次重置剩余：30 天', server: meiyou-hk.jiumaojiu.org, port: 20502, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 20501-20599, type: hysteria2, password: c147b073-03b8-486b-815f-4e08104e0002 }
     - { name: 套餐到期：2025-02-20, server: meiyou-hk.jiumaojiu.org, port: 20502, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 20501-20599, type: hysteria2, password: c147b073-03b8-486b-815f-4e08104e0002 }
