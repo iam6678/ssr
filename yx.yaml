@@ -15,7 +15,7 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: '剩余流量：500 GB', server: meiyou-hk.jiumaojiu.org, port: 20502, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 20501-20599, type: hysteria2, password: c147b073-03b8-486b-815f-4e08104e0002 }
+    - { name: '剩余流量：500 GB', server: meiyou-hk.jiumaojiu.org,  port: 20502, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 20501-20599, type: hysteria2, password: c147b073-03b8-486b-815f-4e08104e0002 }
     - { name: '距离下次重置剩余：30 天', server: meiyou-hk.jiumaojiu.org, port: 20502, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 20501-20599, type: hysteria2, password: c147b073-03b8-486b-815f-4e08104e0002 }
     - { name: 套餐到期：2025-02-20, server: meiyou-hk.jiumaojiu.org, port: 20502, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 20501-20599, type: hysteria2, password: c147b073-03b8-486b-815f-4e08104e0002 }
     - { name: 香港1, server: meiyou-hk.jiumaojiu.org, port: 20502, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 20501-20599, type: hysteria2, password: c147b073-03b8-486b-815f-4e08104e0002 }
@@ -38,20 +38,7 @@ proxies:
     - { name: 卢森堡2, server: meiyou-lu.jiumaojiu.org, port: 20528, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 20501-20599, type: hysteria2, password: c147b073-03b8-486b-815f-4e08104e0002 }
     - { name: 卢森堡3, server: meiyou-lu.jiumaojiu.org, port: 20577, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 20501-20599, type: hysteria2, password: c147b073-03b8-486b-815f-4e08104e0002 }
     - { name: 卢森堡4, server: meiyou-lu.jiumaojiu.org, port: 20521, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 20501-20599, type: hysteria2, password: c147b073-03b8-486b-815f-4e08104e0002 }
-    - { name: G1, server: mhs9i-g03.jp01-0986-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-    - { name: G2, server: moei4-g03.jp02-9a99-vm0.entry.fr0307a.art, port: 11775, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-    - { name: G3, server: 5wsvy-g03.jp03-7d22-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-    - { name: G4, server: 9vqel-g03.jp04-3771-vm0.entry.fr0307a.art, port: 446, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-    - { name: G5, server: dwyjm-g03.jp05-6786-vm0.entry.fr0307a.art, port: 46484, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-    - { name: G6, server: ri1jo-g03.jp06-7c5a-vm0.entry.fr0307a.art, port: 28785, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-    - { name: G7, server: qzn58-g03.jp07-1f28-vm0.entry.fr0307a.art, port: 28785, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-    - { name: H1, server: fe8te-g06.jp01-0986-vm0.entry.fr0307a.art, port: 21586, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-    - { name: H2, server: lvnla-g06.jp02-9a99-vm0.entry.fr0307a.art, port: 11778, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-    - { name: H3, server: pg4b0-g06.jp03-7d22-vm0.entry.fr0307a.art, port: 21586, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-    - { name: H4, server: v7ikb-g06.jp04-3771-vm0.entry.fr0307a.art, port: 449, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-    - { name: H5, server: ll7xw-g06.jp05-6786-vm0.entry.fr0307a.art, port: 46487, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-    - { name: H6, server: zn0na-g06.jp06-7c5a-vm0.entry.fr0307a.art, port: 28788, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-    - { name: H7, server: 8dsaw-g06.jp07-1f28-vm0.entry.fr0307a.art, port: 28788, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true} 
+   
 proxy-groups:
     - { name: 梅友机场, type: select, proxies: [自动选择, 故障转移, 散列, 轮询, '剩余流量：500 GB', '距离下次重置剩余：30 天', 套餐到期：2025-02-20, 香港1, 香港2, 香港3, 香港4, 美国1, 美国2, 美国3, 美国4, 日本1, 日本2, 日本3, 日本4, 新加坡1, 新加坡2, 新加坡3, 新加坡4, 卢森堡1, 卢森堡2, 卢森堡3, 卢森堡4, G1, G2, G3, G4, G5, G6, G7, H1, H2, H3, H4, H5, H6, H7] }
     - { name: 自动选择, type: url-test, proxies: ['剩余流量：500 GB', '距离下次重置剩余：30 天', 套餐到期：2025-02-20, 香港1, 香港2, 香港3, 香港4, 美国1, 美国2, 美国3, 美国4, 日本1, 日本2, 日本3, 日本4, 新加坡1, 新加坡2, 新加坡3, 新加坡4, 卢森堡1, 卢森堡2, 卢森堡3, 卢森堡4, G1, G2, G3, G4, G5, G6, G7, H1, H2, H3, H4, H5, H6, H7], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
