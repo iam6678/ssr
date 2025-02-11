@@ -59,6 +59,23 @@ proxies:
   - { name: US 美國 03「原生IP」, server: yyus03.benbo789.me, port: 38443, udp: true, skip-cert-verify: false, sni: yyus03.benbo789.me, type: hysteria2, password: 7a93488e-0911-4cc8-bec5-58a9efd363f5 }
   - { name: US 美國 04「原生IP」, server: yyus04.benbo789.me, port: 38443, udp: true, skip-cert-verify: false, sni: yyus04.benbo789.me, type: hysteria2, password: 7a93488e-0911-4cc8-bec5-58a9efd363f5 }
   - { name: US 美國 05「原生IP」, server: yyus05.benbo789.me, port: 8443, udp: true, skip-cert-verify: false, sni: yyus05.benbo789.me, type: hysteria2, password: 7a93488e-0911-4cc8-bec5-58a9efd363f5 }
+  - { name: 剩余流量1, type: ss, server: 120.195.6.228, port: 34974, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
+  - { name: 剩余25天, type: ss, server: 120.195.6.228, port: 34974, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
+  - { name: 到期20250307, type: ss, server: 120.195.6.228, port: 34974, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
+  - { name: 🇭🇰香港01, type: ss, server: 120.195.6.228, port: 34974, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
+  - { name: 🇭🇰香港02, type: ss, server: 120.195.6.228, port: 34974, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
+  - { name: 🇭🇰香港03, type: ss, server: 120.195.6.228, port: 34974, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
+  - { name: 🇭🇰香港04, type: ss, server: 120.232.218.29, port: 11530, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
+  - { name: 🇭🇰香港05, type: ss, server: 120.232.218.29, port: 11530, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
+  - { name: 🇭🇰香港06, type: ss, server: 120.232.218.29, port: 11530, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
+  - { name: 🇯🇵日本01, type: ss, server: 120.232.218.29, port: 56840, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
+  - { name: 🇯🇵日本02, type: ss, server: 120.195.6.228, port: 49872, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
+  - { name: 🇨🇳台湾01, type: ss, server: 120.232.218.29, port: 40284, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
+  - { name: 🇨🇳台湾02, type: ss, server: 120.195.6.228, port: 40154, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
+  - { name: 🇸🇬新加坡01, type: ss, server: 120.232.218.29, port: 48234, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
+  - { name: 🇸🇬新加坡02, type: ss, server: 120.195.6.228, port: 31153, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
+  - { name: 🇺🇸美国01, type: ss, server: 120.232.218.29, port: 29654, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
+  - { name: 🇺🇸美国02, type: ss, server: 120.195.6.228, port: 27173, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
 proxy-groups:
   - name: 🔰 选择节点
     type: select
@@ -92,6 +109,23 @@ proxy-groups:
       - US 美國 03「原生IP」
       - US 美國 04「原生IP」
       - US 美國 05「原生IP」
+      - 剩余流量1
+      - 剩余25天
+      - 到期20250307
+      - 🇭🇰香港01 
+      - 🇭🇰香港02 
+      - 🇭🇰香港03 
+      - 🇭🇰香港04 
+      - 🇭🇰香港05 
+      - 🇭🇰香港06 
+      - 🇯🇵日本01 
+      - 🇯🇵日本02 
+      - 🇨🇳台湾01 
+      - 🇨🇳台湾02
+      - 🇸🇬新加坡01
+      - 🇸🇬新加坡02
+      - 🇺🇸美国01 
+      - 🇺🇸美国02
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
@@ -124,6 +158,23 @@ proxy-groups:
       - US 美國 03「原生IP」
       - US 美國 04「原生IP」
       - US 美國 05「原生IP」
+      - 剩余流量1
+      - 剩余25天
+      - 到期20250307
+      - 🇭🇰香港01 
+      - 🇭🇰香港02 
+      - 🇭🇰香港03 
+      - 🇭🇰香港04 
+      - 🇭🇰香港05 
+      - 🇭🇰香港06 
+      - 🇯🇵日本01 
+      - 🇯🇵日本02 
+      - 🇨🇳台湾01 
+      - 🇨🇳台湾02
+      - 🇸🇬新加坡01
+      - 🇸🇬新加坡02
+      - 🇺🇸美国01 
+      - 🇺🇸美国02
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
@@ -156,6 +207,23 @@ proxy-groups:
       - US 美國 03「原生IP」
       - US 美國 04「原生IP」
       - US 美國 05「原生IP」
+      - 剩余流量1
+      - 剩余25天
+      - 到期20250307
+      - 🇭🇰香港01 
+      - 🇭🇰香港02 
+      - 🇭🇰香港03 
+      - 🇭🇰香港04 
+      - 🇭🇰香港05 
+      - 🇭🇰香港06 
+      - 🇯🇵日本01 
+      - 🇯🇵日本02 
+      - 🇨🇳台湾01 
+      - 🇨🇳台湾02
+      - 🇸🇬新加坡01
+      - 🇸🇬新加坡02
+      - 🇺🇸美国01 
+      - 🇺🇸美国02
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
@@ -188,6 +256,23 @@ proxy-groups:
       - US 美國 03「原生IP」
       - US 美國 04「原生IP」
       - US 美國 05「原生IP」
+      - 剩余流量1
+      - 剩余25天
+      - 到期20250307
+      - 🇭🇰香港01 
+      - 🇭🇰香港02 
+      - 🇭🇰香港03 
+      - 🇭🇰香港04 
+      - 🇭🇰香港05 
+      - 🇭🇰香港06 
+      - 🇯🇵日本01 
+      - 🇯🇵日本02 
+      - 🇨🇳台湾01 
+      - 🇨🇳台湾02
+      - 🇸🇬新加坡01
+      - 🇸🇬新加坡02
+      - 🇺🇸美国01 
+      - 🇺🇸美国02
   - name: 🌏 爱奇艺&哔哩哔哩
     type: select
     proxies:
