@@ -47,23 +47,35 @@ proxies:
   - {name: 🇯🇵 H5-Ver.8, server: ll7xw-g06.jp05-6786-vm0.entry.fr0307a.art, port: 46487, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 H6-Ver.7, server: zn0na-g06.jp06-7c5a-vm0.entry.fr0307a.art, port: 28788, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 H7-Ver.1, server: 8dsaw-g06.jp07-1f28-vm0.entry.fr0307a.art, port: 28788, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true} 
-  - { name: 剩余流量1, type: ss, server: 120.195.6.228, port: 34974, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
-  - { name: 剩余25天, type: ss, server: 120.195.6.228, port: 34974, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
-  - { name: 到期20250307, type: ss, server: 120.195.6.228, port: 34974, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
-  - { name: 🇭🇰香港01, type: ss, server: 120.195.6.228, port: 34974, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
-  - { name: 🇭🇰香港02, type: ss, server: 120.195.6.228, port: 34974, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
-  - { name: 🇭🇰香港03, type: ss, server: 120.195.6.228, port: 34974, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
-  - { name: 🇭🇰香港04, type: ss, server: 120.232.218.29, port: 11530, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
-  - { name: 🇭🇰香港05, type: ss, server: 120.232.218.29, port: 11530, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
-  - { name: 🇭🇰香港06, type: ss, server: 120.232.218.29, port: 11530, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
-  - { name: 🇯🇵日本01, type: ss, server: 120.232.218.29, port: 56840, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
-  - { name: 🇯🇵日本02, type: ss, server: 120.195.6.228, port: 49872, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
-  - { name: 🇨🇳台湾01, type: ss, server: 120.232.218.29, port: 40284, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
-  - { name: 🇨🇳台湾02, type: ss, server: 120.195.6.228, port: 40154, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
-  - { name: 🇸🇬新加坡01, type: ss, server: 120.232.218.29, port: 48234, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
-  - { name: 🇸🇬新加坡02, type: ss, server: 120.195.6.228, port: 31153, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
-  - { name: 🇺🇸美国01, type: ss, server: 120.232.218.29, port: 29654, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
-  - { name: 🇺🇸美国02, type: ss, server: 120.195.6.228, port: 27173, cipher: aes-128-gcm, password: edb4d72d-7b01-4783-87ba-07dd6b756227, udp: true }
+  - { name: 剩余, server: weilai-us.sanguayun.com, port: 13264, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
+  - { name: 距离, server: weilai-us.sanguayun.com, port: 13264, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
+  - { name: 套餐, server: weilai-us.sanguayun.com, port: 13264, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
+  - { name: 🇺🇸 美国1, server: weilai-us.sanguayun.com, port: 13264, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
+  - { name: 🇺🇸 美国2, server: weilai-us.sanguayun.com, port: 13259, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
+  - { name: 🇺🇸 美国3, server: weilai-us.sanguayun.com, port: 13951, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
+  - { name: 🇺🇸 美国4, server: weilai-us.sanguayun.com, port: 13603, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
+  - { name: 🇭🇰 香港1, server: weilai-hk.sanguayun.com, port: 13425, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
+  - { name: 🇭🇰 香港2, server: weilai-hk.sanguayun.com, port: 13580, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
+  - { name: 🇭🇰 香港3, server: weilai-hk.sanguayun.com, port: 13654, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
+  - { name: 🇭🇰 香港4, server: weilai-hk.sanguayun.com, port: 13451, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
+  - { name: 🇯🇵 日本1, server: weilai-jp.sanguayun.com, port: 13763, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
+  - { name: 🇯🇵 日本2, server: weilai-jp.sanguayun.com, port: 13887, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
+  - { name: 🇯🇵 日本3, server: weilai-jp.sanguayun.com, port: 13820, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
+  - { name: 🇯🇵 日本4, server: weilai-jp.sanguayun.com, port: 13541, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
+  - { name: 🇳🇱 荷兰1, server: weilai-nl.sanguayun.com, port: 13347, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
+  - { name: 🇳🇱 荷兰2, server: weilai-nl.sanguayun.com, port: 13437, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
+  - { name: 🇳🇱 荷兰3, server: weilai-nl.sanguayun.com, port: 13105, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
+  - { name: 🇳🇱 荷兰4, server: weilai-nl.sanguayun.com, port: 13495, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
+  - { name: 流量, server: dg.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: dg.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
+  - { name: 余剩, server: dg.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: dg.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
+  - { name: 到期, server: dg.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: dg.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
+  - { name: 德国, server: dg.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: dg.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
+  - { name: 美国, server: mg.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: mg.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
+  - { name: 日本, server: rb.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: rb.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
+  - { name: 香港, server: xg.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: xg.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
+  - { name: 新加坡, server: xjp.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: xjp.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
+  - { name: 英国, server: yg.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: yg.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
+  - { name: 网址, server: yg.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: yg.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
 proxy-groups:
   - name: 🔰 选择节点
     type: select
@@ -85,23 +97,35 @@ proxy-groups:
       - 🇯🇵 H5-Ver.8
       - 🇯🇵 H6-Ver.7
       - 🇯🇵 H7-Ver.1
-      - 剩余流量1
-      - 剩余25天
-      - 到期20250307
-      - 🇭🇰香港01 
-      - 🇭🇰香港02 
-      - 🇭🇰香港03 
-      - 🇭🇰香港04 
-      - 🇭🇰香港05 
-      - 🇭🇰香港06 
-      - 🇯🇵日本01 
-      - 🇯🇵日本02 
-      - 🇨🇳台湾01 
-      - 🇨🇳台湾02
-      - 🇸🇬新加坡01
-      - 🇸🇬新加坡02
-      - 🇺🇸美国01 
-      - 🇺🇸美国02
+      - 剩余
+      - 距离
+      - 套餐
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港4
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇯🇵 日本4
+      - 🇳🇱 荷兰1
+      - 🇳🇱 荷兰2
+      - 🇳🇱 荷兰3
+      - 🇳🇱 荷兰4
+      - 流量
+      - 余剩
+      - 到期
+      - 德国
+      - 美国
+      - 日本
+      - 香港
+      - 新加
+      - 英国
+      - 网址
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
@@ -122,23 +146,35 @@ proxy-groups:
       - 🇯🇵 H5-Ver.8
       - 🇯🇵 H6-Ver.7
       - 🇯🇵 H7-Ver.1
-      - 剩余流量1
-      - 剩余25天
-      - 到期20250307
-      - 🇭🇰香港01 
-      - 🇭🇰香港02 
-      - 🇭🇰香港03 
-      - 🇭🇰香港04 
-      - 🇭🇰香港05 
-      - 🇭🇰香港06 
-      - 🇯🇵日本01 
-      - 🇯🇵日本02 
-      - 🇨🇳台湾01 
-      - 🇨🇳台湾02
-      - 🇸🇬新加坡01
-      - 🇸🇬新加坡02
-      - 🇺🇸美国01 
-      - 🇺🇸美国02
+      - 剩余
+      - 距离
+      - 套餐
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港4
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇯🇵 日本4
+      - 🇳🇱 荷兰1
+      - 🇳🇱 荷兰2
+      - 🇳🇱 荷兰3
+      - 🇳🇱 荷兰4
+      - 流量
+      - 余剩
+      - 到期
+      - 德国
+      - 美国
+      - 日本
+      - 香港
+      - 新加
+      - 英国
+      - 网址
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
@@ -159,23 +195,35 @@ proxy-groups:
       - 🇯🇵 H5-Ver.8
       - 🇯🇵 H6-Ver.7
       - 🇯🇵 H7-Ver.1
-      - 剩余流量1
-      - 剩余25天
-      - 到期20250307
-      - 🇭🇰香港01 
-      - 🇭🇰香港02 
-      - 🇭🇰香港03 
-      - 🇭🇰香港04 
-      - 🇭🇰香港05 
-      - 🇭🇰香港06 
-      - 🇯🇵日本01 
-      - 🇯🇵日本02 
-      - 🇨🇳台湾01 
-      - 🇨🇳台湾02
-      - 🇸🇬新加坡01
-      - 🇸🇬新加坡02
-      - 🇺🇸美国01 
-      - 🇺🇸美国02
+      - 剩余
+      - 距离
+      - 套餐
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港4
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇯🇵 日本4
+      - 🇳🇱 荷兰1
+      - 🇳🇱 荷兰2
+      - 🇳🇱 荷兰3
+      - 🇳🇱 荷兰4
+      - 流量
+      - 余剩
+      - 到期
+      - 德国
+      - 美国
+      - 日本
+      - 香港
+      - 新加
+      - 英国
+      - 网址
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
@@ -196,23 +244,35 @@ proxy-groups:
       - 🇯🇵 H5-Ver.8
       - 🇯🇵 H6-Ver.7
       - 🇯🇵 H7-Ver.1
-      - 剩余流量1
-      - 剩余25天
-      - 到期20250307
-      - 🇭🇰香港01 
-      - 🇭🇰香港02 
-      - 🇭🇰香港03 
-      - 🇭🇰香港04 
-      - 🇭🇰香港05 
-      - 🇭🇰香港06 
-      - 🇯🇵日本01 
-      - 🇯🇵日本02 
-      - 🇨🇳台湾01 
-      - 🇨🇳台湾02
-      - 🇸🇬新加坡01
-      - 🇸🇬新加坡02
-      - 🇺🇸美国01 
-      - 🇺🇸美国02
+      - 剩余
+      - 距离
+      - 套餐
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港4
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇯🇵 日本4
+      - 🇳🇱 荷兰1
+      - 🇳🇱 荷兰2
+      - 🇳🇱 荷兰3
+      - 🇳🇱 荷兰4
+      - 流量
+      - 余剩
+      - 到期
+      - 德国
+      - 美国
+      - 日本
+      - 香港
+      - 新加
+      - 英国
+      - 网址
   - name: 🌏 爱奇艺&哔哩哔哩
     type: select
     proxies:
