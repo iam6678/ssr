@@ -73,7 +73,7 @@ proxies:
   - { name: 美国, server: mg.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: mg.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
   - { name: 日本, server: rb.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: rb.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
   - { name: 香港, server: xg.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: xg.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
-  - { name: 新加坡, server: xjp.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: xjp.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
+  - { name: 新加, server: xjp.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: xjp.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
   - { name: 英国, server: yg.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: yg.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
   - { name: 网址, server: yg.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: yg.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
 proxy-groups:
