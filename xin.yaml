@@ -33,49 +33,53 @@ dns:
       - 127.0.0.0/8
       - 0.0.0.0/8
 proxies:
-  - {name: 🇯🇵 G1-Ver.6, server: mhs9i-g03.jp01-0986-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 G2-Ver.7, server: moei4-g03.jp02-9a99-vm0.entry.fr0307a.art, port: 11775, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 G3-Ver.6, server: 5wsvy-g03.jp03-7d22-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 G4-Ver.7, server: 9vqel-g03.jp04-3771-vm0.entry.fr0307a.art, port: 446, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 G5-Ver.8, server: dwyjm-g03.jp05-6786-vm0.entry.fr0307a.art, port: 46484, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 G6-Ver.7, server: ri1jo-g03.jp06-7c5a-vm0.entry.fr0307a.art, port: 28785, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 G7-Ver.1, server: qzn58-g03.jp07-1f28-vm0.entry.fr0307a.art, port: 28785, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 H1-Ver.6, server: fe8te-g06.jp01-0986-vm0.entry.fr0307a.art, port: 21586, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 H2-Ver.7, server: lvnla-g06.jp02-9a99-vm0.entry.fr0307a.art, port: 11778, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 H3-Ver.6, server: pg4b0-g06.jp03-7d22-vm0.entry.fr0307a.art, port: 21586, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 H4-Ver.7, server: v7ikb-g06.jp04-3771-vm0.entry.fr0307a.art, port: 449, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 H5-Ver.8, server: ll7xw-g06.jp05-6786-vm0.entry.fr0307a.art, port: 46487, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 H6-Ver.7, server: zn0na-g06.jp06-7c5a-vm0.entry.fr0307a.art, port: 28788, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 H7-Ver.1, server: 8dsaw-g06.jp07-1f28-vm0.entry.fr0307a.art, port: 28788, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true} 
-  - { name: 剩余, server: weilai-us.sanguayun.com, port: 13264, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
-  - { name: 距离, server: weilai-us.sanguayun.com, port: 13264, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
-  - { name: 套餐, server: weilai-us.sanguayun.com, port: 13264, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
-  - { name: 🇺🇸 美国1, server: weilai-us.sanguayun.com, port: 13264, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
-  - { name: 🇺🇸 美国2, server: weilai-us.sanguayun.com, port: 13259, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
-  - { name: 🇺🇸 美国3, server: weilai-us.sanguayun.com, port: 13951, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
-  - { name: 🇺🇸 美国4, server: weilai-us.sanguayun.com, port: 13603, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
-  - { name: 🇭🇰 香港1, server: weilai-hk.sanguayun.com, port: 13425, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
-  - { name: 🇭🇰 香港2, server: weilai-hk.sanguayun.com, port: 13580, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
-  - { name: 🇭🇰 香港3, server: weilai-hk.sanguayun.com, port: 13654, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
-  - { name: 🇭🇰 香港4, server: weilai-hk.sanguayun.com, port: 13451, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
-  - { name: 🇯🇵 日本1, server: weilai-jp.sanguayun.com, port: 13763, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
-  - { name: 🇯🇵 日本2, server: weilai-jp.sanguayun.com, port: 13887, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
-  - { name: 🇯🇵 日本3, server: weilai-jp.sanguayun.com, port: 13820, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
-  - { name: 🇯🇵 日本4, server: weilai-jp.sanguayun.com, port: 13541, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
-  - { name: 🇳🇱 荷兰1, server: weilai-nl.sanguayun.com, port: 13347, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
-  - { name: 🇳🇱 荷兰2, server: weilai-nl.sanguayun.com, port: 13437, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
-  - { name: 🇳🇱 荷兰3, server: weilai-nl.sanguayun.com, port: 13105, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
-  - { name: 🇳🇱 荷兰4, server: weilai-nl.sanguayun.com, port: 13495, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 13001-13999, type: hysteria2, password: cbaa9e3c-3bea-403d-8a3e-1d5e9d3cdc43 }
-  - { name: 流量, server: dg.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: dg.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
-  - { name: 余剩, server: dg.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: dg.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
-  - { name: 到期, server: dg.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: dg.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
-  - { name: 德国, server: dg.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: dg.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
-  - { name: 美国, server: mg.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: mg.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
-  - { name: 日本, server: rb.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: rb.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
-  - { name: 香港, server: xg.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: xg.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
-  - { name: 新加, server: xjp.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: xjp.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
-  - { name: 英国, server: yg.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: yg.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
-  - { name: 网址, server: yg.sytcloud.top, port: 35801, udp: true, skip-cert-verify: true, sni: yg.sytcloud.top, type: hysteria2, password: bd3320a5-966f-4282-9a2f-dc76a66283b1 }
+    - {name: 🇯🇵 G1-Ver.6, server: mhs9i-g03.jp01-0986-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+    - {name: 🇯🇵 G2-Ver.7, server: moei4-g03.jp02-9a99-vm0.entry.fr0307a.art, port: 11775, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+    - {name: 🇯🇵 G3-Ver.6, server: 5wsvy-g03.jp03-7d22-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+    - {name: 🇯🇵 G4-Ver.7, server: 9vqel-g03.jp04-3771-vm0.entry.fr0307a.art, port: 446, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+    - {name: 🇯🇵 G5-Ver.8, server: dwyjm-g03.jp05-6786-vm0.entry.fr0307a.art, port: 46484, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+    - {name: 🇯🇵 G6-Ver.7, server: ri1jo-g03.jp06-7c5a-vm0.entry.fr0307a.art, port: 28785, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+    - {name: 🇯🇵 G7-Ver.1, server: qzn58-g03.jp07-1f28-vm0.entry.fr0307a.art, port: 28785, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+    - {name: 🇯🇵 H1-Ver.6, server: fe8te-g06.jp01-0986-vm0.entry.fr0307a.art, port: 21586, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+    - {name: 🇯🇵 H2-Ver.7, server: lvnla-g06.jp02-9a99-vm0.entry.fr0307a.art, port: 11778, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+    - {name: 🇯🇵 H3-Ver.6, server: pg4b0-g06.jp03-7d22-vm0.entry.fr0307a.art, port: 21586, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+    - {name: 🇯🇵 H4-Ver.7, server: v7ikb-g06.jp04-3771-vm0.entry.fr0307a.art, port: 449, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+    - {name: 🇯🇵 H5-Ver.8, server: ll7xw-g06.jp05-6786-vm0.entry.fr0307a.art, port: 46487, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+    - {name: 🇯🇵 H6-Ver.7, server: zn0na-g06.jp06-7c5a-vm0.entry.fr0307a.art, port: 28788, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+    - {name: 🇯🇵 H7-Ver.1, server: 8dsaw-g06.jp07-1f28-vm0.entry.fr0307a.art, port: 28788, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true} 
+    - { name: 套餐到期, server: aimanman-us.sanguayun.com, port: 22469, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 22001-22999, type: hysteria2, password: 173959fb-78d5-4a02-821f-59482e4a9a48 }
+    - { name: 美国1, server: aimanman-us.sanguayun.com, port: 22469, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 22001-22999, type: hysteria2, password: 173959fb-78d5-4a02-821f-59482e4a9a48 }
+    - { name: 美国2, server: aimanman-us.sanguayun.com, port: 22798, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 22001-22999, type: hysteria2, password: 173959fb-78d5-4a02-821f-59482e4a9a48 }
+    - { name: 美国3, server: aimanman-us.sanguayun.com, port: 22976, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 22001-22999, type: hysteria2, password: 173959fb-78d5-4a02-821f-59482e4a9a48 }
+    - { name: 美国4, server: aimanman-us.sanguayun.com, port: 22894, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 22001-22999, type: hysteria2, password: 173959fb-78d5-4a02-821f-59482e4a9a48 }
+    - { name: 日本1, server: aimanman-jp.sanguayun.com, port: 22306, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 22001-22999, type: hysteria2, password: 173959fb-78d5-4a02-821f-59482e4a9a48 }
+    - { name: 日本2, server: aimanman-jp.sanguayun.com, port: 22604, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 22001-22999, type: hysteria2, password: 173959fb-78d5-4a02-821f-59482e4a9a48 }
+    - { name: 日本3, server: aimanman-jp.sanguayun.com, port: 22944, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 22001-22999, type: hysteria2, password: 173959fb-78d5-4a02-821f-59482e4a9a48 }
+    - { name: 日本4, server: aimanman-jp.sanguayun.com, port: 22627, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 22001-22999, type: hysteria2, password: 173959fb-78d5-4a02-821f-59482e4a9a48 }
+    - { name: 韩国1, server: aimanman-kr.sanguayun.com, port: 22806, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 22001-22999, type: hysteria2, password: 173959fb-78d5-4a02-821f-59482e4a9a48 }
+    - { name: 韩国2, server: aimanman-kr.sanguayun.com, port: 22884, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 22001-22999, type: hysteria2, password: 173959fb-78d5-4a02-821f-59482e4a9a48 }
+    - { name: 韩国3, server: aimanman-kr.sanguayun.com, port: 22146, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 22001-22999, type: hysteria2, password: 173959fb-78d5-4a02-821f-59482e4a9a48 }
+    - { name: 韩国4, server: aimanman-kr.sanguayun.com, port: 22088, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 22001-22999, type: hysteria2, password: 173959fb-78d5-4a02-821f-59482e4a9a48 }
+    - { name: 新加坡1, server: aimanman-sg.sanguayun.com, port: 22266, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 22001-22999, type: hysteria2, password: 173959fb-78d5-4a02-821f-59482e4a9a48 }
+    - { name: 新加坡2, server: aimanman-sg.sanguayun.com, port: 22264, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 22001-22999, type: hysteria2, password: 173959fb-78d5-4a02-821f-59482e4a9a48 }
+    - { name: 新加坡3, server: aimanman-sg.sanguayun.com, port: 22904, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 22001-22999, type: hysteria2, password: 173959fb-78d5-4a02-821f-59482e4a9a48 }
+    - { name: 新加坡4, server: aimanman-sg.sanguayun.com, port: 22868, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 22001-22999, type: hysteria2, password: 173959fb-78d5-4a02-821f-59482e4a9a48 }
+    - { name: 英国1, server: aimanman-uk.sanguayun.com, port: 22451, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 22001-22999, type: hysteria2, password: 173959fb-78d5-4a02-821f-59482e4a9a48 }
+    - { name: 英国2, server: aimanman-uk.sanguayun.com, port: 22149, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 22001-22999, type: hysteria2, password: 173959fb-78d5-4a02-821f-59482e4a9a48 }
+    - { name: 英国3, server: aimanman-uk.sanguayun.com, port: 22914, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 22001-22999, type: hysteria2, password: 173959fb-78d5-4a02-821f-59482e4a9a48 }
+    - { name: 英国4, server: aimanman-uk.sanguayun.com, port: 22225, sni: null, up: 1000, down: 1000, skip-cert-verify: false, ports: 22001-22999, type: hysteria2, password: 173959fb-78d5-4a02-821f-59482e4a9a48 }
+    - { name: 法国直连1, type: vless, server: cf-node-de-1.kcjb.org, port: 443, uuid: bd8d848a-4071-412c-8d22-76091fccfec6, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: false, servername: node-rm-fr-1.origan.us.kg, network: ws, ws-opts: { path: /, headers: { Host: node-rm-fr-1.origan.us.kg } } }
+    - { name: 法国直连2, type: vless, server: cf-node-2.kcjb.org, port: 443, uuid: bd8d848a-4071-412c-8d22-76091fccfec6, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: false, servername: node-rm-fr-1.origan.us.kg, network: ws, ws-opts: { path: /, headers: { Host: node-rm-fr-1.origan.us.kg } } }
+    - { name: 美国直连1, type: vless, server: cfnode-1.kcjb.org, port: 443, uuid: bd8d848a-4071-412c-8d22-76091fccfec6, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: false, servername: pr-1111.origan.us.kg, network: ws, ws-opts: { path: /, headers: { Host: pr-1111.origan.us.kg } } }
+    - { name: 美国直连2, type: vless, server: cfnode-2.kcjb.org, port: 443, uuid: bd8d848a-4071-412c-8d22-76091fccfec6, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: false, servername: pr-1111.origan.us.kg, network: ws, ws-opts: { path: /, headers: { Host: pr-1111.origan.us.kg } } }
+    - { name: 美国直连3, type: vless, server: wh.cf.cname.vvhan.com, port: 443, uuid: bd8d848a-4071-412c-8d22-76091fccfec6, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: false, servername: pr-1111.origan.us.kg, network: ws, ws-opts: { path: /, headers: { Host: pr-1111.origan.us.kg } } }
+    - { name: 美国直连4, type: vless, server: cfnode-3.kcjb.org, port: 443, uuid: bd8d848a-4071-412c-8d22-76091fccfec6, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: false, servername: pr-1111.origan.us.kg, network: ws, ws-opts: { path: /, headers: { Host: pr-1111.origan.us.kg } } }
+    - { name: 美国直连5, type: vless, server: cf-ip-4.kcjb.org, port: 443, uuid: bd8d848a-4071-412c-8d22-76091fccfec6, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: true, servername: node-new-us-1.clashr.us.kg, network: ws, ws-opts: { path: /, headers: { Host: node-new-us-1.clashr.us.kg } } }
+    - { name: 美国直连6, type: vless, server: 1741048941.tencentapp.cn, port: 443, uuid: bd8d848a-4071-412c-8d22-76091fccfec6, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: false, servername: node-new-us-1.clashr.us.kg, network: ws, ws-opts: { path: /, headers: { Host: node-new-us-1.clashr.us.kg } } }
+    - { name: 美国直连7, type: vless, server: cf-node-us.kcjb.org, port: 443, uuid: bd8d848a-4071-412c-8d22-76091fccfec6, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: true, servername: node-new-us-1.clashr.us.kg, network: ws, ws-opts: { path: /, headers: { Host: node-new-us-1.clashr.us.kg } } }
+    - { name: 美国直连8, type: vless, server: cf-node-us-1.kcjb.org, port: 443, uuid: bd8d848a-4071-412c-8d22-76091fccfec6, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: true, servername: node-new-us-1.clashr.us.kg, network: ws, ws-opts: { path: /, headers: { Host: node-new-us-1.clashr.us.kg } } }
+    - { name: 美国直连9, type: vless, server: cf-node-jp-11.kcjb.org, port: 443, uuid: bd8d848a-4071-412c-8d22-76091fccfec6, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: true, servername: node-new-us-1.clashr.us.kg, network: ws, ws-opts: { path: /, headers: { Host: node-new-us-1.clashr.us.kg } } }
+    - { name: 美国直连10, type: vless, server: cf-node-hk-1.kcjb.org, port: 443, uuid: bd8d848a-4071-412c-8d22-76091fccfec6, alterId: 0, cipher: auto, udp: true, flow: null, tls: true, skip-cert-verify: true, servername: node-new-us-1.clashr.us.kg, network: ws, ws-opts: { path: /, headers: { Host: node-new-us-1.clashr.us.kg } } }
 proxy-groups:
   - name: 🔰 选择节点
     type: select
@@ -97,36 +101,39 @@ proxy-groups:
       - 🇯🇵 H5-Ver.8
       - 🇯🇵 H6-Ver.7
       - 🇯🇵 H7-Ver.1
-      - 剩余
-      - 距离
-      - 套餐
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
-      - 🇺🇸 美国4
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇯🇵 日本1
-      - 🇯🇵 日本2
-      - 🇯🇵 日本3
-      - 🇯🇵 日本4
-      - 🇳🇱 荷兰1
-      - 🇳🇱 荷兰2
-      - 🇳🇱 荷兰3
-      - 🇳🇱 荷兰4
-      - 流量
-      - 余剩
-      - 到期
-      - 德国
-      - 美国
-      - 日本
-      - 香港
-      - 新加
-      - 英国
-      - 网址
-      - DIRECT
+      - 套餐到期
+      - 美国1
+      - 美国2
+      - 美国3
+      - 美国4
+      - 日本1
+      - 日本2
+      - 日本3
+      - 日本4
+      - 韩国1
+      - 韩国2
+      - 韩国3
+      - 韩国4
+      - 新加坡1
+      - 新加坡2
+      - 新加坡3
+      - 新加坡4
+      - 英国1
+      - 英国2
+      - 英国3
+      - 英国4
+      - 法国直连1
+      - 法国直连2
+      - 美国直连1
+      - 美国直连2
+      - 美国直连3
+      - 美国直连4
+      - 美国直连5
+      - 美国直连6
+      - 美国直连7
+      - 美国直连8
+      - 美国直连9
+      - 美国直连10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -146,35 +153,39 @@ proxy-groups:
       - 🇯🇵 H5-Ver.8
       - 🇯🇵 H6-Ver.7
       - 🇯🇵 H7-Ver.1
-      - 剩余
-      - 距离
-      - 套餐
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
-      - 🇺🇸 美国4
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇯🇵 日本1
-      - 🇯🇵 日本2
-      - 🇯🇵 日本3
-      - 🇯🇵 日本4
-      - 🇳🇱 荷兰1
-      - 🇳🇱 荷兰2
-      - 🇳🇱 荷兰3
-      - 🇳🇱 荷兰4
-      - 流量
-      - 余剩
-      - 到期
-      - 德国
-      - 美国
-      - 日本
-      - 香港
-      - 新加
-      - 英国
-      - 网址
+      - 套餐到期
+      - 美国1
+      - 美国2
+      - 美国3
+      - 美国4
+      - 日本1
+      - 日本2
+      - 日本3
+      - 日本4
+      - 韩国1
+      - 韩国2
+      - 韩国3
+      - 韩国4
+      - 新加坡1
+      - 新加坡2
+      - 新加坡3
+      - 新加坡4
+      - 英国1
+      - 英国2
+      - 英国3
+      - 英国4
+      - 法国直连1
+      - 法国直连2
+      - 美国直连1
+      - 美国直连2
+      - 美国直连3
+      - 美国直连4
+      - 美国直连5
+      - 美国直连6
+      - 美国直连7
+      - 美国直连8
+      - 美国直连9
+      - 美国直连10
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
@@ -195,35 +206,39 @@ proxy-groups:
       - 🇯🇵 H5-Ver.8
       - 🇯🇵 H6-Ver.7
       - 🇯🇵 H7-Ver.1
-      - 剩余
-      - 距离
-      - 套餐
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
-      - 🇺🇸 美国4
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇯🇵 日本1
-      - 🇯🇵 日本2
-      - 🇯🇵 日本3
-      - 🇯🇵 日本4
-      - 🇳🇱 荷兰1
-      - 🇳🇱 荷兰2
-      - 🇳🇱 荷兰3
-      - 🇳🇱 荷兰4
-      - 流量
-      - 余剩
-      - 到期
-      - 德国
-      - 美国
-      - 日本
-      - 香港
-      - 新加
-      - 英国
-      - 网址
+      - 套餐到期
+      - 美国1
+      - 美国2
+      - 美国3
+      - 美国4
+      - 日本1
+      - 日本2
+      - 日本3
+      - 日本4
+      - 韩国1
+      - 韩国2
+      - 韩国3
+      - 韩国4
+      - 新加坡1
+      - 新加坡2
+      - 新加坡3
+      - 新加坡4
+      - 英国1
+      - 英国2
+      - 英国3
+      - 英国4
+      - 法国直连1
+      - 法国直连2
+      - 美国直连1
+      - 美国直连2
+      - 美国直连3
+      - 美国直连4
+      - 美国直连5
+      - 美国直连6
+      - 美国直连7
+      - 美国直连8
+      - 美国直连9
+      - 美国直连10
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
@@ -244,35 +259,39 @@ proxy-groups:
       - 🇯🇵 H5-Ver.8
       - 🇯🇵 H6-Ver.7
       - 🇯🇵 H7-Ver.1
-      - 剩余
-      - 距离
-      - 套餐
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
-      - 🇺🇸 美国4
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇯🇵 日本1
-      - 🇯🇵 日本2
-      - 🇯🇵 日本3
-      - 🇯🇵 日本4
-      - 🇳🇱 荷兰1
-      - 🇳🇱 荷兰2
-      - 🇳🇱 荷兰3
-      - 🇳🇱 荷兰4
-      - 流量
-      - 余剩
-      - 到期
-      - 德国
-      - 美国
-      - 日本
-      - 香港
-      - 新加
-      - 英国
-      - 网址
+      - 套餐到期
+      - 美国1
+      - 美国2
+      - 美国3
+      - 美国4
+      - 日本1
+      - 日本2
+      - 日本3
+      - 日本4
+      - 韩国1
+      - 韩国2
+      - 韩国3
+      - 韩国4
+      - 新加坡1
+      - 新加坡2
+      - 新加坡3
+      - 新加坡4
+      - 英国1
+      - 英国2
+      - 英国3
+      - 英国4
+      - 法国直连1
+      - 法国直连2
+      - 美国直连1
+      - 美国直连2
+      - 美国直连3
+      - 美国直连4
+      - 美国直连5
+      - 美国直连6
+      - 美国直连7
+      - 美国直连8
+      - 美国直连9
+      - 美国直连10
   - name: 🌏 爱奇艺&哔哩哔哩
     type: select
     proxies:
