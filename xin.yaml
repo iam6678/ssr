@@ -33,20 +33,20 @@ dns:
       - 127.0.0.0/8
       - 0.0.0.0/8
 proxies:
-    - {name: 🇯🇵 G1-Ver.6, server: mhs9i-g03.jp01-0986-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-    - {name: 🇯🇵 G2-Ver.7, server: moei4-g03.jp02-9a99-vm0.entry.fr0307a.art, port: 11775, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-    - {name: 🇯🇵 G3-Ver.6, server: 5wsvy-g03.jp03-7d22-vm0.entry.fr0307a.art, port: 21583, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-    - {name: 🇯🇵 G4-Ver.7, server: 9vqel-g03.jp04-3771-vm0.entry.fr0307a.art, port: 446, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-    - {name: 🇯🇵 G5-Ver.8, server: dwyjm-g03.jp05-6786-vm0.entry.fr0307a.art, port: 46484, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-    - {name: 🇯🇵 G6-Ver.7, server: ri1jo-g03.jp06-7c5a-vm0.entry.fr0307a.art, port: 28785, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-    - {name: 🇯🇵 G7-Ver.1, server: qzn58-g03.jp07-1f28-vm0.entry.fr0307a.art, port: 28785, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-    - {name: 🇯🇵 H1-Ver.6, server: fe8te-g06.jp01-0986-vm0.entry.fr0307a.art, port: 21586, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-    - {name: 🇯🇵 H2-Ver.7, server: lvnla-g06.jp02-9a99-vm0.entry.fr0307a.art, port: 11778, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-    - {name: 🇯🇵 H3-Ver.6, server: pg4b0-g06.jp03-7d22-vm0.entry.fr0307a.art, port: 21586, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-    - {name: 🇯🇵 H4-Ver.7, server: v7ikb-g06.jp04-3771-vm0.entry.fr0307a.art, port: 449, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-    - {name: 🇯🇵 H5-Ver.8, server: ll7xw-g06.jp05-6786-vm0.entry.fr0307a.art, port: 46487, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-    - {name: 🇯🇵 H6-Ver.7, server: zn0na-g06.jp06-7c5a-vm0.entry.fr0307a.art, port: 28788, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-    - {name: 🇯🇵 H7-Ver.1, server: 8dsaw-g06.jp07-1f28-vm0.entry.fr0307a.art, port: 28788, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true} 
+  - {name: 🇯🇵 G1-Ver.6, server: j2bq7-g03.jp01-nn-vm0.entry.fr0528.art, port: 21583, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 G2-Ver.7, server: b4u3g-g03.jp02-e3-vm0.entry.fr0528.art, port: 11775, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 G3-Ver.6, server: g8g1w-g03.jp03-j7-vm0.entry.fr0528.art, port: 21583, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 G4-Ver.7, server: jo6g0-g03.jp04-1d-vm0.entry.fr0528.art, port: 446, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 G5-Ver.8, server: ib42y-g03.jp05-h6-vm0.entry.fr0528.art, port: 46484, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 G6-Ver.7, server: n7w3j-g03.jp06-jz-vm0.entry.fr0528.art, port: 28785, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 G7-Ver.1, server: fx845-g03.jp07-sh-vm0.entry.fr0528.art, port: 28785, type: vmess, uuid: dc73ee78-b562-37ea-8b7b-d49ffc6df619, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 H1-Ver.6, server: la3vy-g06.jp01-nn-vm0.entry.fr0528.art, port: 21586, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 H2-Ver.7, server: 4t3i1-g06.jp02-e3-vm0.entry.fr0528.art, port: 11778, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 H3-Ver.6, server: bxng9-g06.jp03-j7-vm0.entry.fr0528.art, port: 21586, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 H4-Ver.7, server: vv8f7-g06.jp04-1d-vm0.entry.fr0528.art, port: 449, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 H5-Ver.8, server: d14pn-g06.jp05-h6-vm0.entry.fr0528.art, port: 46487, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 H6-Ver.7, server: v05uj-g06.jp06-jz-vm0.entry.fr0528.art, port: 28788, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 H7-Ver.1, server: 4ztxz-g06.jp07-sh-vm0.entry.fr0528.art, port: 28788, type: vmess, uuid: b1961201-ace6-3d0a-932f-69e3b4ef6bdd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 选择节点
     type: select
